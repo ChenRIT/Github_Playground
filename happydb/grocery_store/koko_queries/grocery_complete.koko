@@ -1,0 +1,26 @@
+extract "Ents" x from "/Users/chen/happyDB_clean.txt" if
+		   ("at" x "last" {0.1}) or
+		   ("from" x "for" {0.1}) or
+		   ("from" x "that" {0.1}) or
+		   (x near "groceries" {0.5}) or
+		   (x near "grocery" {0.5}) or
+		   (x near "gift cards" {0.3}) or
+		   (x near "giftcard" {0.3}) or
+		   (x near "giftcards" {0.3}) or		   		   
+		   (x near "purchase" {0.2}) or
+		   (x near "clearance" {0.2}) or
+		   (x near "store" {0.4}) or
+		   (x near "discount" {0.2}) or
+		   (x near "sample" {0.2}) or
+		   (x near "sale" {0.2}) or
+		   (x near "sample" {0.2}) or
+		   (x near "deal" {0.1}) or		   		   
+		   (x near "coupon" {0.2}) or
+		   (x near "Wholesale Club" {0.5}) or
+		   (x near "Wholesale" {0.5})
+with threshold 0.2
+excluding (str(x) matches ".*[0-9]+.*")
+excluding (str(x) matches ".*(month|week|year|day|night).*")
+excluding (str(x) matches ".*(morning|evening).*")
+excluding (str(x) matches ".*(spring|summer|fall|winter).*")
+ 

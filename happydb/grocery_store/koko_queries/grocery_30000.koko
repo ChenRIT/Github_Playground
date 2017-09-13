@@ -1,0 +1,12 @@
+extract "Ents" x from "/Users/chen/test_data_30000.txt" if
+		   ("at" x "last" {0.2}) or
+		   ("to" x "today" {0.1}) or
+		   ("to" x "with" {0.1}) or		   		   
+		   ("from" x "for" {0.1}) or
+		   ("from" x "that" {0.1}) or		   
+		   (x near "buy" {0.1}) or
+		   (x near "groceries" {0.1}) or
+		   (x near "gift card" {0.1}) or
+		   (x near "giftcard" {0.1}) or
+		   (x near "sale" {0.1})
+with threshold 0.4
