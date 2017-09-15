@@ -1,0 +1,18 @@
+extract "Ents" x from "/Users/chen/Research/Playground/Github_Playground/happydb/data/happyDB_clean.txt" if
+		   ("book called" x {0.1}) or
+		   ("book titled" x {0.1}) or
+		   ("book," x {0.1}) or
+		   ("book" x {0.1}) or
+		   ("novel called" x {0.1}) or
+		   ("novel titled" x {0.1}) or
+		   ("novel, " x {0.1}) or
+		   ("novel" x {0.1}) or
+		   ("read" x {0.1}) or
+		   ("finished" x {0.1}) or
+		   ("volume of" x {0.1})
+with threshold 0.0
+excluding (str(x) matches ".*[0-9]+.*")
+excluding (str(x) matches ".*(month|week|year|day|night).*")
+excluding (str(x) matches ".*(morning|evening).*")
+excluding (str(x) matches ".*(spring|summer|fall|winter).*")
+ 
