@@ -1,0 +1,79 @@
+Results of extracting book names with KOKO:
+
+
+Parsed query: extract "/Users/chen/Research/Playground/Github_Playground/happydb/data/happyDB_clean.txt" Ents from "x" if
+	("book called" x { 0.10 }) or
+	("book titled" x { 0.10 }) or
+	("book," x { 0.10 }) or
+	("book" x { 0.10 }) or
+	("novel called" x { 0.10 }) or
+	("novel titled" x { 0.10 }) or
+	("novel," x { 0.10 }) or
+	("novel" x { 0.10 }) or
+	("read" x { 0.10 }) or
+	("finished" x { 0.10 }) or
+	("volume of" x { 0.10 })   
+with threshold 0.00
+excluding
+	(str(x) matches ".*[0-9]+.*")
+	(str(x) matches ".*(month|week|year|day|night).*")
+	(str(x) matches ".*(morning|evening).*")
+	(str(x) matches ".*(spring|summer|fall|winter).*")
+
+
+Results:
+
+Entity name                                        Entity score
+===============================================================
+ I                                                 0.900000
+one                                                0.800000
+two                                                0.400000
+at least one                                       0.200000
+first                                              0.200000
+Harry Potter                                       0.200000
+"My Life"                                          0.100000
+Start Trek Deep Space Nine                         0.100000
+Clothes, Clothes, Clothes...I love                 0.100000
+four                                               0.100000
+"Highly Illogical Behavior"                        0.100000
+ When i                                            0.100000
+Gwenpool                                           0.100000
+Calvin                                             0.100000
+a couple                                           0.100000
+about Jean-Michel Basquiat                         0.100000
+a few hours                                        0.100000
+ My                                                0.100000
+this afternoon                                     0.100000
+Legion                                             0.100000
+the Forest Temple                                  0.100000
+early at work                                      0.100000
+annual                                             0.100000
+Cripple Wolf                                       0.100000
+Humble Bundle                                      0.100000
+the first season of                                0.100000
+ My son                                            0.100000
+the Boston Marathon                                0.100000
+three                                              0.100000
+Penn State                                         0.100000
+Anna Karenina                                      0.100000
+Moonglow by Michael Chabon                         0.100000
+Trump                                              0.100000
+ I FIRST CLASS                                     0.100000
+ten                                                0.100000
+Plato                                              0.100000
+ The                                               0.100000
+ Finishing a                                       0.100000
+ I                                                 0.100000
+the latest season                                  0.100000
+"The Passage"                                      0.100000
+a few hundred                                      0.100000
+the first season of my new favorite show           0.100000
+a season of a TV show                              0.100000
+season                                             0.100000
+"The City of Mirrors"                              0.100000
+outside for hours                                  0.100000
+
+
+Comment 1: There are a lot of moments mentioning books (#: 431), but few mention
+the books' names.
+
