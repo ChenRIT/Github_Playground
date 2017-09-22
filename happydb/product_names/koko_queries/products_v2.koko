@@ -1,0 +1,3 @@
+extract "NPs" x from "/Users/chen/bought_a_new_data.txt" if
+		   ("bought" x {0.1})
+with threshold 0.0

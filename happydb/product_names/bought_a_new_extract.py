@@ -20,8 +20,5 @@ data_sub = data
 output_file = args.opath
 with open(output_file, 'w') as ofile:
     for i in range(0, data_sub['cleaned_hm'].size-1):
-        if 'buy' in data_sub['cleaned_hm'].iloc[i] or \
-           'bought' in data_sub['cleaned_hm'].iloc[i] or \
-           'purchase' in data_sub['cleaned_hm'].iloc[i] or \
-           'shopping' in data_sub['cleaned_hm'].iloc[i]:
+        if 'bought a new' in data_sub['cleaned_hm'].iloc[i]:
            ofile.write(data_sub['cleaned_hm'].iloc[i] + '\n')
