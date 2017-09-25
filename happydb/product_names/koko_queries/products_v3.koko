@@ -1,0 +1,16 @@
+extract "Ngrams(1,1)" x from "/Users/chen/Research/Playground/Github_Playground/happydb/data/happyDB_clean.txt" if
+		   ("bought a new" x {0.01}) or
+		   ("bought a few" x {0.01}) or
+		   ("bought some" x {0.01}) or
+		   ("bought a" x {0.01}) or
+		   (x "I bought" {0.01}) or		   
+		   ("purchased a new" x {0.01}) or
+		   ("purchased a few" x {0.01}) or
+		   ("purchased some" x {0.01}) or
+		   ("purchased a" x {0.01}) or
+		   (x "I purchased" {0.01})
+with threshold 0.2
+excluding (str(x) matches ".*(new|NEW|few).*")
+excluding (str(x) matches ".*(,|\.|;|!|\$|\(|\)|-).*")
+excluding (str(x) matches ".*[0-9]+.*")
+excluding (str(x) matches ".*(and|or|so|the|this|that).*")
