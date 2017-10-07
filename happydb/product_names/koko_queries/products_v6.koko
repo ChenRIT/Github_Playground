@@ -1,0 +1,4 @@
+extract "Ents" x from "/Users/chen/Research/Playground/Github_Playground/happydb/data/happyDB_clean.txt" if
+	("bought" x {0.1}) or
+	("purchased" x {0.1})
+with threshold 0.0
