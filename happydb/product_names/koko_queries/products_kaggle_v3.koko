@@ -1,0 +1,6 @@
+extract "NPs" x from "/Users/chen/Research/Playground/Github_Playground/happydb/data/happyDB_sample.txt" if
+	("buy" ~ x {0.1})
+with threshold 0.2
+
+excluding(str(x) matches "(I|i|me|we|us|he|him|she|her|they|them|it)")
+excluding(str(x) matches "(my|our|his|her|their).*")

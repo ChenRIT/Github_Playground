@@ -1,0 +1,4 @@
+extract "NPs" x from "/Users/chen/Research/Playground/Github_Playground/happydb/data/happyDB_sample.txt" if
+	("buy" x {0.1}) or
+	("purchase" x {0.1})	
+with threshold 0.2
