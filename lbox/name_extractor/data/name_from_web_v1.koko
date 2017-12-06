@@ -1,0 +1,3 @@
+extract "Ents" x from "/Users/chen/Research/Playground/Github_Playground/lbox/name_extractor/data/web_contents.txt" if
+	("My name is " x {0.5})
+with threshold 0.0
