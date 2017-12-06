@@ -11,5 +11,5 @@ if __name__ == "__main__":
             if record['Warc-type'] == 'warcinfo':
                 pass
             else:
-                ofile.write(record.payload + "\n")
+                ofile.write(record.payload.encode('utf-8') + "\n")
             
