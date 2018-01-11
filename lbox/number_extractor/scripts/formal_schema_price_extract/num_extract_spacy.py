@@ -88,16 +88,8 @@ def extract_price(input_texts, output_file, pre_pad_num, post_pad_num):
                 continue
 
             # Extract number
-            number = extract_num(match_obj.string)
-            if number is None:
-                #print("No number found!")
-                continue
-
-            # Extract modifiers, such as unit and inequality
-            label = extract_modifiers(sent.text, number)
-            if label is None:
-                break
-            
+            numbers = extract_num(match_obj.string)
+ 
             data_entry = (sent.text, label)
             ins_count += 1
             output_file.write(str(data_entry) + "\n")
