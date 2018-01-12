@@ -21,15 +21,20 @@ def extract_num_chunk(sent):
     for token in tokens:
         if token.like_num:
             if token_start is None:
-                token_start = token.idx
+                token_start = token.i
             else:
                 continue
         else:
             if token_start is None:
                 continue
             else:
-                num_chunks.append((token_start, token.idx))
+                num_chunks.append((token_start, token.i))
+                #print(token.text)
+                #print("Add: {}".format(num_chunks))
                 token_start = None
+
+    if token_start:
+        num_chunks.append((token_start, len(doc)))
 
     return num_chunks
 
@@ -46,15 +51,13 @@ def decode_num_chunk(chunk_pair, sent):
     # Generate textual representation
     num_tokens = []
     num_start, num_end = chunk_pair
-    for token in tokens:
-        if token.idx >= num_start and token.idx < num_end:
-            num_tokens.append(token.text)
 
-    return ' '.join(num_tokens)
+    return doc[num_start:num_end].text
 
 if __name__ == "__main__":
-    test_string = "I have a 2005 five car, which costs me 3 hundred thousand dollars."
+    test_string = "I have a 2005 five car which costs me 3 hundred thousand dollars."
 
     num_chunk_idx = extract_num_chunk(test_string)
     for num_tokens in num_chunk_idx:
+        #print(num_tokens)
         print(decode_num_chunk(num_tokens, test_string))
