@@ -3,7 +3,7 @@ import spacy
 nlp = spacy.load('en')
 tokenizer = spacy.tokenizer.Tokenizer(nlp.vocab)
 
-def extract_num_chunk(sent):
+def extract_num_chunk(doc):
     '''
     Extract the number chunks from a sentence
 
@@ -12,8 +12,7 @@ def extract_num_chunk(sent):
     '''
 
     # Tokenize the sentence
-    doc = nlp(sent)
-    tokens = tokenizer(sent)
+    tokens = tokenizer(doc)
 
     # Find sequences of numbers
     num_chunks = []
@@ -38,15 +37,14 @@ def extract_num_chunk(sent):
 
     return num_chunks
 
-def decode_num_chunk(chunk_pair, sent):
+def decode_num_chunk(chunk_pair, doc):
     '''
     Textual representation of the number chunk
 
     '''
 
     # Tokenize the sentence
-    doc = nlp(sent)
-    tokens = tokenizer(sent)
+    tokens = tokenizer(doc)
 
     # Generate textual representation
     num_tokens = []
