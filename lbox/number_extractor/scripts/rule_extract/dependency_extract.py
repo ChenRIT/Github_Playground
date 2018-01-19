@@ -78,9 +78,9 @@ if __name__ == '__main__':
 
     input_string = args.sentence
     if input_string:
-        test_res = extract_numerical_value(test_string)
-        res = extract_numerical_value(test_string)
-        results[test_string] = res
+        test_res = extract_numerical_value(input_string)
+        res = extract_numerical_value(input_string)
+        results[input_string] = res
 
     in_test_mode = args.test
     if in_test_mode:
