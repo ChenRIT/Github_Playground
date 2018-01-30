@@ -144,11 +144,13 @@ if __name__ == "__main__":
     for fname in ifnames:
         rank_results = rank_ngrams(fname, gram_num, top_n)
         #print(rank_results)
-        # for ele in rank_results.keys():
-        #     print(str(ele) + '\n')
-        #results = list(rank_results.keys())[:top_n]
+        for ele in rank_results.keys():
+            if "more than" in ele:
+                print("{}: {}".format(ele, rank_results[ele]))
+        print("------------------\n\n")
+        # results = list(rank_results.keys())[:top_n]
         results = rank_results.keys()
-        #print(results)
+        # print(str(results) + "\n")
         combined_results.append(results)
 
     # Find common patterns that appear for all attributes
@@ -158,5 +160,5 @@ if __name__ == "__main__":
 
     for res in combined_results[2:]:
         common_pattern = common_pattern.intersection(set(res))
-    print(common_pattern)
+    print(*common_pattern, sep='\n')
             
