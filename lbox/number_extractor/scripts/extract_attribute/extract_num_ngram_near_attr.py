@@ -22,9 +22,9 @@ def get_closest_num(doc, token_idx):
     for i in range(0, 1000):
         right_idx = token_idx + gap
         left_idx = token_idx - gap
-        if right_idx < len(doc) and doc[right_idx].pos == NUM:
+        if right_idx < len(doc) and doc[right_idx].text == "NUM":
             return (False, right_idx)
-        elif left_idx > 0 and doc[left_idx].pos == NUM:
+        elif left_idx > 0 and doc[left_idx].text == "NUM":
             return (True, left_idx)
         else:
             gap += 1
@@ -72,7 +72,7 @@ def get_ngram_left(doc, end_idx, max_gram):
     start_idx = None
     cur_idx = end_idx - 1
     for i in range(0, 1000):
-        if doc[cur_idx].pos == NUM:
+        if doc[cur_idx].text == "NUM":
             cur_idx -= 1
             continue
         else:
@@ -92,7 +92,7 @@ def get_ngram_right(doc, start_idx, max_gram):
     end_idx = None
     cur_idx = start_idx + 1
     for i in range(0, 1000):
-        if doc[cur_idx].pos == NUM:
+        if doc[cur_idx].text == "NUM":
             cur_idx += 1
             continue
         else:
@@ -176,11 +176,11 @@ if __name__ == "__main__":
         #         print("{}: {}".format(ele, rank_results[ele]))
         # print("------------------\n\n")
         # results = list(rank_results.keys())[:top_n]
-        filtered_results = [key for (key, value) in rank_results.items() if value > 1]
-        #results = rank_results.keys()
-        #print(str(results) + "\n")
-        #combined_results.append(results)
-        combined_results.append(filtered_results)
+        #filtered_results = [key for (key, value) in rank_results.items() if value > 1]
+        results = rank_results.keys()
+        print(str(results) + "\n")
+        combined_results.append(results)
+        #combined_results.append(filtered_results)
 
     # color_rank_results = rank_color_ngrams(cfname, gram_num, top_n)
     # color_results = color_rank_results.keys()
