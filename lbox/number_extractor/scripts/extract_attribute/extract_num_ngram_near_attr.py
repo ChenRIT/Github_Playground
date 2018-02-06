@@ -25,9 +25,9 @@ def get_closest_num(doc, token_idx):
     for i in range(0, 1000):
         right_idx = token_idx + gap
         left_idx = token_idx - gap
-        if doc[right_idx].pos == NUM:
+        if right_idx < len(doc) and doc[right_idx].pos == NUM:
             return (False, right_idx)
-        elif doc[left_idx].pos == NUM:
+        elif left_idx > 0 and doc[left_idx].pos == NUM:
             return (True, left_idx)
         else:
             gap += 1
