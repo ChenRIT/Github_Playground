@@ -26,9 +26,8 @@ def extract_numerical_value(raw_sentence):
     for token in doc:
         for unit in units:
             if unit in token.text:
-                # token_list = extract_offspring(token)
-                token_list = [child for child in token.subtree]
-                extraction_result.append(token_list)
+                word_list = [child.text for child in token.subtree]
+                extraction_result.append(word_list)
                 break
 
     for token in doc:
@@ -50,7 +49,7 @@ def extract_numerical_value(raw_sentence):
                 # print("Extracted tokens: {}".format(extraction_result))
                 for extraction in extraction_result:
                     for extk in extraction:
-                        if token == extk:
+                        if token.text == extk:
                             is_extract = True
                             break
                     if is_extract:
@@ -58,9 +57,8 @@ def extract_numerical_value(raw_sentence):
                 if is_extract:
                     continue
 
-                # token_list = extract_offspring(token)
-                token_list = [child for child in token.subtree]
-                extraction_result.append(token_list)
+                word_list = [child.text for child in token.subtree]
+                extraction_result.append(word_list)
             else:
                 continue
         else:
@@ -78,7 +76,6 @@ if __name__ == '__main__':
 
     input_string = args.sentence
     if input_string:
-        test_res = extract_numerical_value(input_string)
         res = extract_numerical_value(input_string)
         results[input_string] = res
 

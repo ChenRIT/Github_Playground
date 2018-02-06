@@ -1,4 +1,4 @@
-# Extract common ngrams and rank them
+# Extract common ngrams around the number closest to the attribute and rank them
 
 import argparse
 from collections import deque
@@ -128,30 +128,61 @@ def rank_ngrams(fname, max_gram, top_n=10):
     ngram_ranker = Counter(ngrams)
     return ngram_ranker
 
+def rank_color_ngrams(fname, max_gram, top_n=10):
+    '''
+    Rand the ngrams containing color expression in the input file
+    '''
+    values = ["red", "blue", "black", "white", "orange", "yellow", "green", "indigo", "violet", "pink", "brown", "purple", "grey"]
+    doc = None
+    with open(fname) as ifile:
+        doc = nlp(ifile.read())
+
+    ngrams = []
+    for token in doc:
+        if token.text in values:
+            for gram in range(2, max_gram):
+                start_idx = token.i - gram + 1
+                for idx in range(start_idx, token.i):
+                    color_gram = ""
+                    for i in range(0, gram):
+                        if idx+i != token.i:
+                            color_gram += doc[idx+i].text + " "
+                        else:
+                            color_gram += "NUM "
+                    ngrams.append(color_gram)
+    ngram_ranker = Counter(ngrams)
+    return ngram_ranker
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-ifnames", nargs='+', help="The data files to be opened.")
+    #parser.add_argument("-colorfname", type=str, help="The color file to be opened")#WARNING: this is a hack
     #parser.add_argument("-ofname", type=str, help="The output file to be opened.", default="test_output.txt")
     parser.add_argument("-gn", "--gramnum", type=int, help="The maximum number of grams to be considered.", default=4)
     parser.add_argument("-top", type=int, help="The top n number of patterns to be considered.", default=10)    
     args = parser.parse_args()
 
     ifnames = args.ifnames
+    #cfname = args.colorfname
     gram_num = args.gramnum
     top_n = args.top
     combined_results = []
     for fname in ifnames:
         rank_results = rank_ngrams(fname, gram_num, top_n)
         #print(rank_results)
-        for ele in rank_results.keys():
-            if "more than" in ele:
-                print("{}: {}".format(ele, rank_results[ele]))
-        print("------------------\n\n")
+        # for ele in rank_results.keys():
+        #     if "more than" in ele:
+        #         print("{}: {}".format(ele, rank_results[ele]))
+        # print("------------------\n\n")
         # results = list(rank_results.keys())[:top_n]
         results = rank_results.keys()
         # print(str(results) + "\n")
         combined_results.append(results)
+
+    # color_rank_results = rank_color_ngrams(cfname, gram_num, top_n)
+    # color_results = color_rank_results.keys()
+    #print(str(color_results) + "\n")
 
     # Find common patterns that appear for all attributes
     #print("Combined results: {}".format(combined_results))
@@ -160,5 +191,12 @@ if __name__ == "__main__":
 
     for res in combined_results[2:]:
         common_pattern = common_pattern.intersection(set(res))
+
+    # print("# of patterns before difference: {}".format(len(common_pattern)))
+    # intersect_patterns = common_pattern.intersection(color_results)
+    # print(*intersect_patterns, sep='\n')    
+    # common_pattern = common_pattern.difference(color_results)
+    # print("# of patterns after difference: {}".format(len(common_pattern)))
+    print("# of patterns found: {}".format(len(common_pattern)))
     print(*common_pattern, sep='\n')
             
