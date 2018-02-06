@@ -6,8 +6,11 @@ from collections import Counter
 
 import spacy
 from spacy.symbols import NUM, PUNCT, SPACE
+import en_core_web_sm
 
-nlp = spacy.load('en')
+nlp = en_core_web_sm.load()
+
+batch_size = 13000
 
 def get_closest_num(doc, token_idx):
     '''
