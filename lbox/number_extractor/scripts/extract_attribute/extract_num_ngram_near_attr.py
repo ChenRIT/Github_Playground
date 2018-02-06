@@ -176,9 +176,11 @@ if __name__ == "__main__":
         #         print("{}: {}".format(ele, rank_results[ele]))
         # print("------------------\n\n")
         # results = list(rank_results.keys())[:top_n]
-        results = rank_results.keys()
-        # print(str(results) + "\n")
-        combined_results.append(results)
+        filtered_results = [key for (key, value) in rank_results.items() if value > 1]
+        #results = rank_results.keys()
+        #print(str(results) + "\n")
+        #combined_results.append(results)
+        combined_results.append(filtered_results)
 
     # color_rank_results = rank_color_ngrams(cfname, gram_num, top_n)
     # color_results = color_rank_results.keys()
