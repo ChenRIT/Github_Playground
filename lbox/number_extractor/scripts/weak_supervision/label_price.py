@@ -1,5 +1,6 @@
 import sys
 import csv
+import re
 
 import spacy
 from spacy.symbols import NUM
@@ -48,7 +49,8 @@ def abstract_number(sent_string):
 
 if __name__ == "__main__":
     # Read input sentences
-    input_fname = "./exp_sentences.txt"
+    # input_fname = "./exp_sentences.txt"
+    input_fname = "./test_plain_sents.txt"    
     sents = []    
     with open(input_fname) as ifile:
         for line in ifile:
@@ -56,7 +58,8 @@ if __name__ == "__main__":
     # print("sents: {}".format(sents))
 
     # Read extraction rules for labeling
-    extract_fname = "./exp_patterns_label.csv"
+    # extract_fname = "./exp_patterns_label.csv"
+    extract_fname = "./exp_pattern_100.csv"    
     ext_rules = []
     with open(extract_fname) as pfile:
         ext_csv = csv.reader(pfile)
@@ -75,7 +78,9 @@ if __name__ == "__main__":
     output_fname = "./label_data.csv"
     with open(output_fname, 'w') as ofile:
         sentwriter = csv.writer(ofile)
+        sentwriter.writerow(['index', 'sentence', 'label'])
         label_data = []
+        label_idx = 0
         for sent_tuple in abs_sents:
             ori_sent, conv_sent, mapping = sent_tuple
             print("original sent: {}".format(ori_sent))
@@ -84,35 +89,87 @@ if __name__ == "__main__":
 
             # Apply the rule which has the longest pattern
             rule_match = False
-            ext_rule_id = 0
-            max_length = 0
+            match_rules = []
             for i in range(len(ext_rules)):
                 rule = ext_rules[i]
                 pattern = rule[0]
                 extract = rule[1]
-                if pattern in conv_sent and len(pattern) > max_length:
-                    max_length = len(pattern)
-                    ext_rule_id = i
+                search_pattern = pattern
+                # Pre-process patterns
+                for i in range(10):
+                    str_to_repl = '_' + str(i)
+                    search_pattern = search_pattern.replace(str_to_repl, "_[0-9]")
+                search_pattern = search_pattern.replace(")", "\)")
+                search_pattern = search_pattern.replace("$", "\$")                
+                # print("Search pattern: {}".format(search_pattern))
+                search_res = re.search(search_pattern, conv_sent)
+                if search_res:
+                    match_rules.append(rule)
                     rule_match = True
 
             if not rule_match:
                 print("No rule match for sent: {}".format(ori_sent))
                 continue
 
-            rule_for_ext = ext_rules[ext_rule_id]
-            pattern_ext = rule_for_ext[0]
-            extract_ext = rule_for_ext[1]
-            print("Matched pattern: {}".format(pattern_ext))
-            print("Template extraction: {}".format(extract_ext))
-            # Use the rule to extract the value
-            val_extract = extract_ext
-            for sym, val in mapping.items(): 
-                if sym not in val_extract:
-                    print("No {} found".format(sym))
-                    sys.exit()
+            # Use candidate rules for extraction. Start from the longest rule
+            sorted_rules = sorted(match_rules, key=lambda pair: len(pair[0]), reverse=True)
+            print("Candidate rules: {}".format(sorted_rules))
+            rule_idx = 0
+            sent_to_search = conv_sent
+            is_match = False
+            extract_values = ""
+            while rule_idx < len(sorted_rules):
+                rule_cand = sorted_rules[rule_idx]
+                pattern_ext = rule_cand[0]
+                extract_ext = rule_cand[1]
+                search_pattern = pattern_ext
+                # Pre-process patterns
+                search_pattern = search_pattern.replace(")", "\)")
+                search_pattern = search_pattern.replace("$", "\$")
+                print("Match pattern: {}".format(search_pattern))                
+                for i in range(10):
+                    str_to_repl = 'NUM_' + str(i)
+                    search_pattern = search_pattern.replace(str_to_repl, "(NUM_.)")
+
+                # Match the pattern
+                print("Revised pattern: {}".format(search_pattern))                
+                match_res = re.search(search_pattern, sent_to_search)
+                if match_res is None:
+                    rule_idx += 1
+                    continue
+
+                #print("Matched pattern: {}".format(search_pattern))
+                is_match = True
+                first_num = match_res.group(1)
+                digit = first_num[-1:]
+                print("Digit: {}".format(digit))
+                diff = int(digit) - 1
+                mod_extract = extract_ext
+                for i in reversed(range(10)):
+                    str_to_repl = 'NUM_' + str(i)
+                    num_repl = i+diff
+                    #print("Num replace: {}".format(num_repl))
+                    mod_extract = mod_extract.replace(str_to_repl, "NUM_"+str(num_repl))
+                print("Template extraction: {}".format(mod_extract))
+                
+                # Use the rule to extract the value
+                for sym, val in mapping.items():
+                    if sym in mod_extract:
+                        mod_extract = mod_extract.replace(sym, val)
+                        
+                if extract_values == "":
+                    extract_values = mod_extract
                 else:
-                    val_extract = val_extract.replace(sym, val)
-            sentwriter.writerow([ori_sent, val_extract])
+                    extract_values += ":" + mod_extract
 
+                # Remove the matched part
+                sent_to_search = sent_to_search.replace(match_res.group(0), "")
+                rule_idx = 0
 
-
+            if not is_match:
+                print("No match found!")
+                extract_values = "(-|-|-|-|-)"
+                
+            sentwriter.writerow([label_idx, ori_sent, extract_values])
+            label_idx += 1
+            
