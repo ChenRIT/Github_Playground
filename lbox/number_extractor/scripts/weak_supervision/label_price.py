@@ -7,6 +7,14 @@ from spacy.symbols import NUM
 
 nlp = spacy.load('en')
 
+def separate_numbers(sent):
+  # Separate numbers and its following words, e.g., 6.99you
+  for m in re.findall("(\D*)(\d?[0-9\,\.]*\d)(\D*)", sent):
+    m = [x for x in m if x]
+    sent = sent.replace(''.join(m), ' ' + ' '.join(m) + ' ')
+    sent = ' '.join(sent.split())
+  return sent
+
 def abstract_number(sent_string):
     num_idx = 1
     num_to_val = {}
@@ -50,11 +58,13 @@ def abstract_number(sent_string):
 if __name__ == "__main__":
     # Read input sentences
     # input_fname = "./exp_sentences.txt"
-    input_fname = "./test_plain_sents.txt"    
+    # input_fname = "./test_plain_sents.txt"
+    input_fname = "training_10000.txt"
     sents = []    
     with open(input_fname) as ifile:
         for line in ifile:
-            sents.append(line)
+            new_line = separate_numbers(line)
+            sents.append(new_line)
     # print("sents: {}".format(sents))
 
     # Read extraction rules for labeling
@@ -65,6 +75,7 @@ if __name__ == "__main__":
         ext_csv = csv.reader(pfile)
         for row in ext_csv:
             ext_rules.append(row)
+    ext_rules = ext_rules[1:] # The first row is the schema
     # print("extraction_rules: {}".format(ext_rules))            
 
     # Convert all number chunks in the input sentences into NUM, and append an index to each NUM.
@@ -164,6 +175,7 @@ if __name__ == "__main__":
 
                 # Remove the matched part
                 sent_to_search = sent_to_search.replace(match_res.group(0), "")
+                # print("Modified sent: {}".format(sent_to_search))
                 rule_idx = 0
 
             if not is_match:
