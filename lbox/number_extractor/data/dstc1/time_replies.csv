@@ -1,0 +1,223 @@
+index,sentence,Hour,Minute
+0,nine o'clock,9,-
+1,ten o'clock,10,-
+2,ten pm,10,-
+3,at seven thirty,7,30
+4,eleven o'clock,11,-
+5,depart by seven a m,7,0
+6,seven a m,7,0
+7,depart at eight a m,8,0
+8,depart at eight a m,8,0
+9,depart at seven forty five a m,7,45
+10,four p m,4,0
+11,depart at one twenty five p m,1,25
+12,arrive by ten o'clock p m,10,0
+13,depart at six a m,6,0
+14,depart six a m,6,0
+15,arrive by twelve o'clock,12,0
+16,arrive by twelve o'clock p m,12,0
+17,depart at one a m,1,0
+18,depart around eight p m,8,0
+19,arrive by eight thirty,8,30
+20,arrive by five o five,5,5
+21,arrive by three p m,3,0
+22,depart at eight a m,8,0
+23,depart at four thirty a m,4,30
+24,depart at four a m,4,0
+25,arrive by twelve,12,0
+26,arrive at twelve p m,12,0
+27,arrive by twelve p m,12,0
+28,nine o'clock a m,9,0
+29,arrive by ten thirty a m,10,30
+30,yeah departing from carnegie mellon yes,2,0
+31,depart at four thirty a m,4,30
+32,arrive by five a m,5,0
+33,arrive by five a m,5,0
+34,twelve,12,0
+35,depart at twelve a m,12,0
+36,ten thirty,10,30
+37,depart about eleven o'clock a m,11,0
+38,depart at ten a m,10,0
+39,arrive at seven a m,7,0
+40,six p m,6,0
+41,arrive by six p m,6,0
+42,eleven thirty,11,30
+43,depart at fucking eleven,11,0
+44,two o'clock a m,2,0
+45,ten o'clock,10,0
+46,midnight,12,0
+47,one a m,1,0
+48,one a m,1,0
+49,arrive by ten o'clock,10,0
+50,depart at five a m,5,0
+51,depart at four thirty a m,4,30
+52,arrive by eight thirty,8,30
+53,seven a m,7,0
+54,depart at four thirty a m,4,30
+55,ten fifteen p m,10,15
+56,ah ten p m,10,0
+57,depart at ten p m,10,0
+58,like eleventh p m,11,0
+59,five thirty,5,30
+60,arrive by seven a m,7,0
+61,arrive by five thirty a m,5,30
+62,six o'clock,6,0
+63,depart four a m,4,0
+64,depart at four a m,4,0
+65,depart at nine a m,9,0
+66,arrive by twelve o'clock a m,12,0
+67,depart at eleven thirty p m,11,30
+68,depart at ten p m,10,0
+69,arrive by six thirty a m,6,30
+70,leaving at twelve,12,0
+71,depart at eleven thirty,11,30
+72,arrive by twelve p m,12,0
+73,arrive by twelve p m,12,0
+74,arrive by one thirty a m,1,30
+75,arrive by one thirty a m,1,30
+76,arrive by one thirty a m,1,30
+77,yeah,1,30
+78,two o'clock p m,2,0
+79,depart at two p m,2,0
+80,depart at two thirty p m,2,30
+81,eleven thirty,11,30
+82,arrive by twelve thirty a m,12,30
+83,arrive by twelve thirty a m,12,30
+84,leave at ten p m,10,0
+85,depart around eight p m,8,0
+86,depart at eight p m,8,0
+87,one p m,1,0
+88,depart by one p m,1,0
+89,part by two p m,2,0
+90,arrive by three fifteen p m,3,15
+91,depart at eleven forty five p m,11,45
+92,depart at twelve thirty a m,12,30
+93,arrive by nine a m,9,0
+94,eight o'clock,8,0
+95,five o'clock p m,5,0
+96,arrive by eleven o'clock a m,11,0
+97,depart at five oh six p m,5,6
+98,arrive by eight thirty p m,8,30
+99,arrive by eight thirty p m,8,30
+100,arrive by six fifteen a m,6,15
+101,ten am,10,-
+102,eleven o'clock,11,-
+103,at eight oclock,8,-
+104,five o'clock,5,-
+105,seven am,7,-
+106,ten o'clock,10,-
+107,eleven oclock pm,11,-
+108,twelve o'clock,12,-
+109,eleven pm,11,-
+110,monday through friday six am until seven pm,7,-
+111,eleven o'clock,11,-
+112,eleven o'clock,11,-
+113,one am,1,-
+114,twelve o'clock,12,-
+115,nine o'clock,9,-
+116,three,3,-
+117,three am,3,-
+118,three am,3,-
+119,nine o'clock,9,-
+120,eight o'clock,8,-
+121,seven o'clock,7,-
+122,twelve o'clock,12,-
+123,ten o'clock,10,-
+124,eight o'clock,8,-
+125,seven thirty,7,-
+126,eight o'clock,8,-
+127,eleven o'clock,11,-
+128,six o'clock,6,-
+129,ten o'clock,10,-
+130,nine o'clock,9,-
+131,ten o'clock,10,-
+132,ten pm,10,-
+133,at seven thirty,7,30
+134,eleven o'clock,11,-
+135,six am,6,-
+136,one am,1,-
+137,one,1,-
+138,nine o'clock,9,-
+139,one o'clock,1,-
+140,six clock,6,-
+141,one o'clock,1,-
+142,eight am,8,-
+143,two oclock,2,-
+144,two pm,2,-
+145,two pm,2,-
+146,seven am,7,-
+147,eight o'clock,8,-
+148,eight o'clock,8,-
+149,eight am,8,-
+150,eleven o'clock,11,-
+151,eight thirty pm,8,30
+152,eleven o'clock,11,-
+153,eleven o'clock,11,-
+154,five o'clock,5,-
+155,at six am,6,-
+156,six am,6,-
+157,nine o'clock,9,-
+158,at nine o'clock,9,-
+159,five o'clock,5,-
+160,no nine oclock,9,-
+161,between nine and nine thirty,9,-
+162,one o'clock,1,-
+163,ten o'clock,10,-
+164,seven o'clock,7,-
+165,four eighteen am,4,-
+166,seven pm,7,-
+167,seven o'clock,7,-
+168,seven am,7,-
+169,seven am,7,-
+170,no seven am,7,-
+171,seven am,7,-
+172,eleven oclock,11,-
+173,sunday eleven pm,11,-
+174,ten o'clock,10,-
+175,ten o'clock,10,-
+176,six am,6,-
+177,two am,2,-
+178,two o'clock,2,-
+179,twelve o'clock,12,-
+180,nine oclock pm,9,-
+181,ten am,10,-
+182,eight o'clock,8,-
+183,ten o'clock,10,-
+184,eleven pm,11,-
+185,seven am,7,-
+186,six o'clock,6,-
+187,tomorrow at seven am,7,-
+188,nine o'clock,9,-
+189,at eight r brighton,8,-
+190,arrive by four thirty,4,30
+191,3m at six thirty,6,30
+192,eleven o'clock,11,-
+193,six oclock am,6,-
+194,six am,6,-
+195,six o'clock,6,-
+196,one o'clock,1,-
+197,six o'clock,6,-
+198,have to be in liberty avenue by nine thirty,9,-
+199,eight o'clock,8,-
+200,eight am,8,-
+201,leaving from mckeesport eight am,8,-
+202,eight am,8,-
+203,eight am,8,-
+204,eight am,8,-
+205,eight am,8,-
+206,seven o'clock,7,-
+207,seven pm,7,-
+208,six o'clock,6,-
+209,ten o'clock,10,-
+210,five o'clock,5,-
+211,five am,5,-
+212,eight pm,8,-
+213,five o'clock,5,-
+214,eleven oclock,11,-
+215,five o'clock,5,-
+216,eight pm,8,-
+217,between eight and nine eight pm and nine pm,9,-
+218,eight pm,8,-
+219,pm p p p p,8,-
+220,six o'clock,6,-
+221,six o'clock,6,-

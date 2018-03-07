@@ -12,6 +12,7 @@ def find_time_exps(label_fname):
     @return: a list of records that contain (reply, time)
 
     """
+    #print("Processing: {}".format(label_fname))
     labels = None
     with open(label_fname) as label_file:
         labels = jsonpickle.decode(label_file.read())
@@ -22,8 +23,18 @@ def find_time_exps(label_fname):
     # Record the user replay transcript and the labeled value
     time_records = []
     for turn in labels['turns']:
-        label_list = turn['slu-labels']
-        transcription = turn['transcription']
+        label_list = None
+        if 'slu-labels' in turn:
+            label_list = turn['slu-labels']
+        else:
+            continue
+
+        transcription = None
+        if 'transcription' in turn:
+            transcription = turn['transcription']
+        else:
+            continue
+        
         for label in label_list:
             has_time = False
             time_hour = "-"
@@ -37,7 +48,7 @@ def find_time_exps(label_fname):
                 time_minute = label['slots']['time.minute']
                 has_time = True
 
-            if has_time:
+            if has_time and transcription != "yes":
                 time_records.append([transcription, time_hour, time_minute])
                 break
 
@@ -68,7 +79,8 @@ def test():
 
 if __name__ == "__main__":
     # Run through DSTC_1 files
-    head_dir = "/Users/chen/Research/Playground/Github_Playground/lbox/number_extractor/data/dstc1/test"
+    head_dir = "/Users/chen/Research/Playground/Github_Playground/lbox/number_extractor/data/dstc1"
+    #head_dir = "/Users/chen/Research/Playground/Github_Playground/lbox/number_extractor/data/dstc1/test"
     # head_dir = "/Users/chen/Research/Playground/Github_Playground/lbox/number_extractor/data/dstc1/DSTC_1"
 
     output_fname = "time_replies.csv"
