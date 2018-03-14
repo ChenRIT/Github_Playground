@@ -85,11 +85,11 @@ def extract_sents(input_texts, output_file, q_kw, a_kw, has_num, verbose, post_p
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-ifnames", nargs='+', help="The data files to be opened.", default=None)
+    parser.add_argument("-dir", type=str, help="The directory to find input files.", default=None)        
     parser.add_argument("-qk", type=str, help="The keyword to be searched for in the question", default=None)
     parser.add_argument("-ak", nargs='+', help="The keywords to be searched for in the answer.", default=None)
     parser.add_argument("-has_num", type=int, help="Indicate whether the answer should contain a number.", default=0)
     parser.add_argument("-verbose", type=int, help="Indicate whether the questions should be output.", default=0)        
-    parser.add_argument("-dir", type=str, help="The directory to find input files.", default=None)    
     parser.add_argument("-pr", "--padding_right", type=int, help="The number of characters to be extracted to the right of the searched pattern", default=100)
     args = parser.parse_args()
 
@@ -117,4 +117,4 @@ if __name__ == "__main__":
                     doc = ifile.read()
                     ins_count += extract_sents(doc, ofile, q_kw, a_kw, has_num, verbose, pad_right)
             
-    #print("Number of final entries: {}".format(ins_count))
+    print("Number of total entries: {}".format(ins_count))

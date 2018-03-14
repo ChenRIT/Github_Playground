@@ -167,6 +167,17 @@ if __name__ == "__main__":
                 for sym, val in mapping.items():
                     if sym in mod_extract:
                         mod_extract = mod_extract.replace(sym, val)
+
+                # Use the token after "per" as rate unit
+                sent_nlp = nlp(ori_sent)
+                contain_per = False
+                for token in sent_nlp:
+                    if contain_per:
+                        unit = token.text
+                        mod_extract = mod_extract.replace("-)", unit+")")
+                        break
+                    if token.text == "per":
+                        contain_per = True
                         
                 if extract_values == "":
                     extract_values = mod_extract

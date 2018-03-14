@@ -7,6 +7,23 @@ from spacy.symbols import NUM
 
 nlp = spacy.load('en')
 
+def abstract_number(sent_string):
+    sent_parse = nlp(sent_string)
+    new_sent = ""
+    is_num_chunk = False
+    for token in sent_parse:
+        if token.pos == NUM:
+            if is_num_chunk:
+                continue
+            else:
+                is_num_chunk = True
+        else:                    
+            if is_num_chunk:
+                new_sent += "NUM "
+                is_num_chunk = False
+                new_sent += token.text + " " 
+    return new_sent
+                
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-attr", type=str, help="The attribute considered.", default="price")    
