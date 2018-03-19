@@ -1,5 +1,6 @@
 # Find the most common ngrams in a text file
 
+import argparse
 import spacy
 import csv
 from collections import Counter
@@ -60,9 +61,13 @@ def extract_ngrams(input_texts, window_size, pre_pad_num=100, post_pad_num=100):
     return ngram_list
 
 if __name__ == "__main__":
-    # Read input file
-    input_file = "./test.txt"
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-dir", type=str, help="The input file name", default="./text.txt")
+    args = parser.parse_args()
+
+    input_file = args.dir
     output_file = "ngram_rank_result.csv"
+
     lower_ngram = 2
     upper_ngram = 5
 
