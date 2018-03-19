@@ -7,65 +7,14 @@ from collections import Counter
 
 nlp = spacy.load('en_core_web_sm')
 
-def extract_ngrams(input_texts, window_size, pre_pad_num=100, post_pad_num=100):
-    """ Extract the sentences containing "$"+Arabic numberals
-
-    @parameters:
-    window_size: the window size of the ngram. window_size represents the number of tokens to the left/right of the extracted number
-
-    @return: the number of instances found
-    """
-
-    ins_count = 0
-
-    # Find all character sequences that contain "price" or its capitalized format.
-    reg_exp = ".{" + str(pre_pad_num) + "}price.{" + str(post_pad_num) + "}"
-    print("Search for patterns: " + reg_exp)
-    results = re.findall(reg_exp, input_texts, re.I|re.S)
-
-    ngram_list = []
-    # Process each result
-    for res in results:
-        doc = nlp(res)
-        num_chunks = extract_num_chunk(res)
-        for num in num_chunks:
-            # Extract ngrams
-            num_start, num_end = num
-            ngram_start = None
-            ngram_end = None
-            if num_start > 0:
-                ngram_start = num_start - window_size
-            else:
-                ngram_start = num_start
-
-            if num_end < len(doc):
-                ngram_end = num_end + window_size
-            else:
-                ngram_end = num_end
-
-            # Replace the number with a special symbol
-            ngram = doc[ngram_start:ngram_end]
-            number = doc[num_start:num_end]
-            ngram_text = ngram.text
-            # print("ngram_text: {}".format(ngram_text))
-            # print("type of ngram_text: {}".format(type(ngram_text)))            
-            number_text = number.text
-            # print("number_text: {}".format(number_text))
-            # print("type of number_text: {}".format(type(number_text)))
-            # print("Find: {}".format(ngram_text.find('200')))
-            ngram_replace = ngram_text.replace(number_text, 'NUM')
-            print("Text after replacement: {}".format(ngram_replace))
-
-            ngram_list.append(ngram_replace)
-
-    return ngram_list
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-dir", type=str, help="The input file name", default="./text.txt")
+    parser.add_argument("-top", type=int, help="The number of common patterns to be output", default=100)    
     args = parser.parse_args()
 
     input_file = args.dir
+    top_num = args.top
     output_file = "ngram_rank_result.csv"
 
     lower_ngram = 2
@@ -79,7 +28,6 @@ if __name__ == "__main__":
             parse_line = nlp(line)
             if len(line) < lower_ngram:
                 continue
-
             
             # Enumerate all possible ngrams
             for start_idx in range(len(parse_line)):
@@ -113,7 +61,7 @@ if __name__ == "__main__":
     ngram_counter = Counter(ngram_list)
 
     # Output the ranked ngrams into an csv file
-    top_one_hundred = ngram_counter.most_common(100)
+    top_one_hundred = ngram_counter.most_common(top_num)
     
     with open(output_file, "w") as ofile:
         sentwriter = csv.writer(ofile)
