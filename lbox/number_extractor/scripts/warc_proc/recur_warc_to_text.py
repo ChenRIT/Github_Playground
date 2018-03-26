@@ -1,5 +1,5 @@
-# Input: a directory name
-# Output: a file containing all lines of name introduction
+# Input: an input directory and an output directory
+# Output: All the plain-text versions of .warc.gz files in the input directory
 
 import os
 import sys
@@ -12,7 +12,6 @@ sys.setdefaultencoding('utf8')
 
 
 def warc_to_text(idir, odir):
-    """ Extract phrases that introduce names from all warc files under dir"""
     warc_ext = '.warc.gz'
     all_fnames = os.listdir(idir)
     
