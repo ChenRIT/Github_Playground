@@ -1,6 +1,7 @@
 import sys
 import csv
 import re
+import argparse
 
 import spacy
 from spacy.symbols import NUM
@@ -57,9 +58,11 @@ def abstract_number(sent_string):
 
 if __name__ == "__main__":
     # Read input sentences
-    # input_fname = "./exp_sentences.txt"
-    # input_fname = "./test_plain_sents.txt"
-    input_fname = "training_10000.txt"
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-ifname", type=str, help="The input text file", default="training_10000.txt")
+    args = parser.parse_args()
+  
+    input_fname = args.ifname
     sents = []    
     with open(input_fname) as ifile:
         for line in ifile:
@@ -84,9 +87,11 @@ if __name__ == "__main__":
     for sent in sents:
         convert_sent = abstract_number(sent)
         abs_sents.append(convert_sent)
+    print("Number of sents: {}".format(len(abs_sents)))        
         
     # Use patterns to match against the sentence, and return the extraction results of the first matched pattern.
     output_fname = "./label_data.csv"
+    output_num = 0
     with open(output_fname, 'w') as ofile:
         sentwriter = csv.writer(ofile)
         sentwriter.writerow(['index', 'sentence', 'label'])
@@ -120,11 +125,14 @@ if __name__ == "__main__":
 
             if not rule_match:
                 print("No rule match for sent: {}".format(ori_sent))
+                sentwriter.writerow([label_idx, ori_sent, "(-|-|-|-|-)"])
+                output_num += 1
+                label_idx += 1
                 continue
 
             # Use candidate rules for extraction. Start from the longest rule
             sorted_rules = sorted(match_rules, key=lambda pair: len(pair[0]), reverse=True)
-            print("Candidate rules: {}".format(sorted_rules))
+            #print("Candidate rules: {}".format(sorted_rules))
             rule_idx = 0
             sent_to_search = conv_sent
             is_match = False
@@ -137,13 +145,13 @@ if __name__ == "__main__":
                 # Pre-process patterns
                 search_pattern = search_pattern.replace(")", "\)")
                 search_pattern = search_pattern.replace("$", "\$")
-                print("Match pattern: {}".format(search_pattern))                
+                #print("Match pattern: {}".format(search_pattern))                
                 for i in range(10):
                     str_to_repl = 'NUM_' + str(i)
                     search_pattern = search_pattern.replace(str_to_repl, "(NUM_.)")
 
                 # Match the pattern
-                print("Revised pattern: {}".format(search_pattern))                
+                #print("Revised pattern: {}".format(search_pattern))                
                 match_res = re.search(search_pattern, sent_to_search)
                 if match_res is None:
                     rule_idx += 1
@@ -153,7 +161,7 @@ if __name__ == "__main__":
                 is_match = True
                 first_num = match_res.group(1)
                 digit = first_num[-1:]
-                print("Digit: {}".format(digit))
+                #print("Digit: {}".format(digit))
                 diff = int(digit) - 1
                 mod_extract = extract_ext
                 for i in reversed(range(10)):
@@ -161,7 +169,7 @@ if __name__ == "__main__":
                     num_repl = i+diff
                     #print("Num replace: {}".format(num_repl))
                     mod_extract = mod_extract.replace(str_to_repl, "NUM_"+str(num_repl))
-                print("Template extraction: {}".format(mod_extract))
+                #print("Template extraction: {}".format(mod_extract))
                 
                 # Use the rule to extract the value
                 for sym, val in mapping.items():
@@ -194,5 +202,8 @@ if __name__ == "__main__":
                 extract_values = "(-|-|-|-|-)"
                 
             sentwriter.writerow([label_idx, ori_sent, extract_values])
+            output_num += 1
             label_idx += 1
+
+    print("Total sentences output: {}".format(output_num))
             

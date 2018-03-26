@@ -11,24 +11,27 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 
 
-def warc_to_text(dir):
+def warc_to_text(idir, odir):
     """ Extract phrases that introduce names from all warc files under dir"""
     warc_ext = '.warc.gz'
-    all_fnames = os.listdir(dir)
+    all_fnames = os.listdir(idir)
     
     for fname in all_fnames:
-        file_path = os.path.join(dir, fname)
-        if os.path.isdir(file_path):
+        input_fpath = os.path.join(idir, fname)
+        output_fpath = os.path.join(odir, fname)
+        if os.path.isdir(input_fpath):
             # Handle subdirectories
-            warc_to_text(file_path)
+            if not os.path.exists(output_fpath):
+                os.makedirs(output_fpath)
+                warc_to_text(input_fpath, output_fpath)
 
-        if os.path.isfile(file_path):
+        if os.path.isfile(input_fpath):
             # Handle files
             if fname.endswith(warc_ext):
                 # Process warc files
-                output_fname = fname + ".txt"
+                output_fname = output_fpath + ".txt"
                 with open(output_fname, "w+") as ofile:
-                    fwarc = warc.open(file_path, "rb")
+                    fwarc = warc.open(input_fpath, "rb")
                     for record in fwarc:
                         soup = BeautifulSoup(record.payload)
                         ofile.write(soup.text)
@@ -36,7 +39,14 @@ def warc_to_text(dir):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    # Parse all .warc.gz files in the directory
-    dir = "/mnt/data/dataset/clueweb09/disk01/ClueWeb09_English_1/en0000"
-    warc_to_text(dir)
+    parser.add_argument("-idir", type=str, help="The input directory", default=".")
+    parser.add_argument("-odir", type=str, help="The output directory", default=".")
+    args = parser.parse_args()
+
+    input_dir = args.idir
+    output_dir = args.odir
+    
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+    warc_to_text(input_dir, output_dir)
 
