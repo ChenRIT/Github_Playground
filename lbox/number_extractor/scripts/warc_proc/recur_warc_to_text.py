@@ -61,5 +61,5 @@ if __name__ == "__main__":
             for line in lfile:
                 print("The file to skip: {}".format(line))
                 processed_files.append(line[:-1])
-                warc_to_text(input_dir, output_dir, lfile, processed_files)
+            warc_to_text(input_dir, output_dir, lfile, processed_files)
 
