@@ -39,9 +39,8 @@ def warc_to_text(idir, odir, lfile, processed_files):
                     for record in fwarc:
                         soup = BeautifulSoup(record.payload)
                         ofile.write(soup.text)
-                lfile.write(input_fpath)
-
-
+                lfile.write(input_fpath+"\n")                        
+                        
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-idir", type=str, help="The input directory", default=".")
@@ -57,7 +56,7 @@ if __name__ == "__main__":
         os.makedirs(output_dir)
 
     processed_files = []
-    with open(log_fname, "r+") as lfile:
+    with open(log_fname, "r+", 0) as lfile:
             for line in lfile:
                 print("The file to skip: {}".format(line))
                 processed_files.append(line[:-1])
