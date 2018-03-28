@@ -22,7 +22,7 @@ def warc_to_text(idir, odir, lfile, processed_files):
             # Handle subdirectories
             if not os.path.exists(output_fpath):
                 os.makedirs(output_fpath)
-                warc_to_text(input_fpath, output_fpath, lfile, processed_files)
+            warc_to_text(input_fpath, output_fpath, lfile, processed_files)
 
         if os.path.isfile(input_fpath):
             # Handle files
