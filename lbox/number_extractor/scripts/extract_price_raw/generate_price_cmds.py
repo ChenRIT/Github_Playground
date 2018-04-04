@@ -6,7 +6,7 @@ import sys
 import argparse
 
 def generate_price_cmds(idir, odir):
-    warc_ext = '.warc.gz.txt'
+    warc_ext = ".warc.gz.txt"
     all_fnames = os.listdir(idir)
 
     for fname in all_fnames:
