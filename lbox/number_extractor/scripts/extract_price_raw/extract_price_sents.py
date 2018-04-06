@@ -1,4 +1,4 @@
-# Extract sentences containing "$"+Arabic numerals from ClueWeb contents
+# - *- coding: utf- 8 - *-
 
 import re
 import argparse
