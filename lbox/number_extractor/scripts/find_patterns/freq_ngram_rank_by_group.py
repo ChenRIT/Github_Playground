@@ -74,7 +74,8 @@ if __name__ == "__main__":
 
     overall_top_ngrams = []
     for _,value in num_to_grams.items():
-        gram_count = Counter(value)
+        filter_value = [val for val in value if ":" not in val]
+        gram_count = Counter(filter_value)
         top_ngrams = gram_count.most_common(top_num)
         top_ngrams_list = [gram for (gram, count) in top_ngrams]
         overall_top_ngrams += top_ngrams_list
