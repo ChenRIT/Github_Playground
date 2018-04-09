@@ -1,4 +1,4 @@
-# Extract sentences containing "$"+Arabic numerals from ClueWeb contents
+# Extract sentences containing weight units from ClueWeb
 
 import re
 import argparse
