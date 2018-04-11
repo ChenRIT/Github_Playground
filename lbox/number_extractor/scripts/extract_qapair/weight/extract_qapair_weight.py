@@ -17,7 +17,8 @@ def extract_sents(input_texts, output_file, verbose, post_pad_num=100):
     """
 
     ins_count = 0
-    reg_exp = r"(?:(?:How heavy)|(?:How much.{,20}weigh)).{,20}\?.{," + str(post_pad_num) + r"}" 
+    #reg_exp = r"(?:(?:How heavy)|(?:How much.{,20}weigh)).{,20}\?.{," + str(post_pad_num) + r"}"
+    reg_exp = r"(?:(?:How heavy)|(?:weigh)).{,10}\?.{," + str(post_pad_num) + r"}"
     print("Search for patterns: " + reg_exp)
 
     results = re.findall(reg_exp, input_texts, re.I)
@@ -33,12 +34,12 @@ def extract_sents(input_texts, output_file, verbose, post_pad_num=100):
         doc = nlp(res)
         sents = list(doc.sents)
         for i in range(len(sents)):
-            print("sent: {}".format(sents[i]))
+            #print("sent: {}".format(sents[i]))
             if '?' in sents[i].text and \
                i+1 < len(sents):
                 next_sent = sents[i+1]
                 print("Next sent: {}".format(next_sent.text))
-                print("Length of the next sent: {}".format(len(next_sent)))                
+                #print("Length of the next sent: {}".format(len(next_sent)))                
 
                 is_valid = False
                 begin_idx = next_sent[0].i
