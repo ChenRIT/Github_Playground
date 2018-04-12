@@ -24,6 +24,9 @@ def warc_to_text(idir, odir):
             if fname.endswith(warc_ext):
                 # Process warc files
                 output_fname = output_fpath + ".txt"
+                if os.path.isfile(output_fname):
+                    # Skip existing files
+                    continue
                 print("python single_warc_to_text.py -ifname {} -ofname {}".format(input_fpath, output_fname))
                         
 if __name__ == "__main__":
