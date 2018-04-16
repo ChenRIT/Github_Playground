@@ -1,0 +1,1201 @@
+index,pattern,Lb,Ub,Unit,Rate
+0,$ NUM_1
+1,NUM_1 price
+2,NUM_1
+3,NUM_1 -
+4,"NUM_1 ,"
+5,NUM_1 NUM_2
+6,- NUM_1
+7,NUM_1 (
+8,", NUM_1"
+9,NUM_1 per
+10,"NUM_1 """
+11,( NUM_1
+12,NUM_1 to
+13,NUM_1 for
+14,from NUM_1
+15,NUM_1 %
+16,NUM_1 and
+17,NUM_1 off
+18,NUM_1 prices
+19,NUM_1 a
+20,NUM_1 in
+21,NUM_1 Best
+22,US$ NUM_1
+23,NUM_1 is
+24,NUM_1 dollars
+25,NUM_1 of
+26,NUM_1 Price
+27,NUM_1 )
+28,NUM_1 $
+29,NUM_1 at
+30,  NUM_1
+31,for NUM_1
+32,of NUM_1
+33,NUM_1 's
+34,a NUM_1
+35,# NUM_1
+36,NUM_1 dollar
+37,NUM_1 or
+38,the NUM_1
+39,in NUM_1
+40,NUM_1 ;
+41,NUM_1 mm
+42,NUM_1 on
+43,to NUM_1
+44,NUM_1 Small
+45,NUM_1 +
+46,NUM_1 K
+47,€ NUM_1
+48,NUM_1 Save
+49,NUM_1 mg
+50,NUM_1 &
+51,NUM_1 from
+52,NUM_1 Sale
+53,x NUM_1
+54,NUM_1 each
+55,NUM_1 just
+56,NUM_1 oz
+57,NUM_1 cd
+58,NUM_1 over
+59,NUM_1 with
+60,NUM_1 after
+61,NUM_1 |
+62,Save NUM_1
+63,NUM_1 bucks
+64,NUM_1 percent
+65,NUM_1 /
+66,NUM_1 €
+67,X NUM_1
+68,NUM_1 the
+69,at NUM_1
+70,NUM_1 GB
+71,after NUM_1
+72,and NUM_1
+73,NUM_1 save
+74,NUM_1 euros
+75,NUM_1 '
+76,NUM_1 MB
+77,  NUM_1
+78,NUM_1 more
+79,NUM_1 Buy
+80,NUM_1 discount
+81,with NUM_1
+82,about NUM_1
+83,The NUM_1
+84,""" NUM_1"
+85,NUM_1 list
+86,NUM_1 X
+87,NUM_1 by
+88,NUM_1 as
+89,is NUM_1
+90,NUM_1 which
+91,or NUM_1
+92,NUM_1 PRICE
+93,NUM_1 euro
+94,NUM_1 purchase
+95,NUM_1 was
+96,NUM_1 years
+97,NUM_1 but
+98,NUM_1 asking
+99,NUM_1 US
+100,NUM_1 USD
+101,NUM_1 less
+102,NUM_1 !
+103,NUM_1 x
+104,NUM_1 retail
+105,NUM_1 plus
+106,NUM_1 Online
+107,NUM_1 m
+108,NUM_1 yen
+109,mg NUM_1
+110,NUM_1 Cordon
+111,NUM_1 dvd
+112,NUM_1 sale
+113,NUM_1 ticket
+114,than NUM_1
+115,NUM_1 under
+116,NUM_1 low
+117,NUM_1 it
+118,Series NUM_1
+119,) NUM_1
+120,NUM_1 tabRetail
+121,NUM_1 cents
+122,NUM_1 days
+123,Pro NUM_1
+124,NUM_1 Special
+125,over NUM_1
+126,NUM_1 M
+127,NUM_1 capsRetail
+128,NUM_1 Black
+129,NUM_1 will
+130,NUM_1 cover
+131,In NUM_1
+132,NUM_1 Piece
+133,NUM_1 China
+134,'s NUM_1
+135,+ NUM_1
+136,NUM_1 base
+137,NUM_1 inch
+138,NUM_1 below
+139,£ NUM_1
+140,NUM_1 months
+141,NUM_1 cds
+142,NUM_1 --
+143,per NUM_1
+144,. NUM_1
+145,NUM_1 LOW
+146,by NUM_1
+147,NUM_1 Standard
+148,NUM_1 yuan
+149,NUM_1 #
+150,NUM_1 Feiss
+151,NUM_1 an
+152,NUM_1 gas
+153,NUM_1 firm
+154,around NUM_1
+155,only NUM_1
+156,NUM_1 times
+157,' NUM_1
+158,NUM_1 worth
+159,NUM_1 pcPrice
+160,/ NUM_1
+161,NUM_1 Brass
+162,NUM_1 nominal
+163,NUM_1 pills
+164,NUM_1 Red
+165,Table NUM_1
+166,A NUM_1
+167,NUM_1 when
+168,cost NUM_1
+169,NUM_1 Silver
+170,NUM_1 G
+171,NUM_1 starting
+172,Binoculars NUM_1
+173,NUM_1 Flatware
+174,NUM_1 Knobs
+175,NUM_1 that
+176,NUM_1 Pay
+177,NUM_1 year
+178,costs NUM_1
+179,NUM_1 PC
+180,NUM_1 Worcester
+181,Size NUM_1
+182,NUM_1 Inch
+183,NUM_1 *
+184,NUM_1 would
+185,save NUM_1
+186,next NUM_1
+187,NUM_1 Gift
+188,NUM_1 shipping
+189,NUM_1 ozRetail
+190,NUM_1 Gold
+191,NUM_1 Eyeglasses
+192,For NUM_1
+193,NUM_1 average
+194,NUM_1 this
+195,on NUM_1
+196,NUM_1 Deluxe
+197,NUM_1 Senior
+198,NUM_1 T
+199,NUM_1 Cabinet
+200,$ NUM_1 price
+201,NUM_1 price
+202,$ NUM_1
+203,price $ NUM_1
+204,  $ NUM_1
+205,"$ NUM_1 ,"
+206,$ NUM_1 NUM_2
+207,the $ NUM_1
+208,to $ NUM_1
+209,NUM_1 - NUM_2
+210,$ NUM_1 -
+211,a $ NUM_1
+212,for $ NUM_1
+213,NUM_1 price $
+214,$ NUM_1 (
+215,$ NUM_1 per
+216,at $ NUM_1
+217,  $ NUM_1
+218,$ NUM_1 to
+219,$ NUM_1 off
+220,   from NUM_1
+221,$ NUM_1 and
+222,$ NUM_1 for
+223,NUM_1 prices
+224,of $ NUM_1
+225,is $ NUM_1
+226,"NUM_1 , NUM_2"
+227,$ NUM_1 prices
+228,$ NUM_1 a
+229,about $ NUM_1
+230,NUM_1 Best price
+231,$ NUM_1 Best
+232,NUM_1 off the
+233,- NUM_1 price
+234,- $ NUM_1
+235,- NUM_1 -
+236,NUM_1 to $
+237,US $ NUM_1
+238,$ NUM_1 is
+239,", $ NUM_1"
+240,( $ NUM_1
+241,$ NUM_1 Price
+242,NUM_1 NUM_2 price
+243,from $ NUM_1
+244,$ NUM_1 in
+245,cost $ NUM_1
+246,At $ NUM_1
+247,$ NUM_1 of
+248,$ NUM_1 's
+249,only $ NUM_1
+250,"NUM_1 , the"
+251,over $ NUM_1
+252,NUM_1 ( NUM_2
+253,and $ NUM_1
+254,costs $ NUM_1
+255,NUM_1 $ NUM_2
+256,around $ NUM_1
+257,$ NUM_1 )
+258,'s $ NUM_1
+259,than $ NUM_1
+260,$ NUM_1 or
+261,Save $ NUM_1
+262,$ NUM_1 Small
+263,NUM_1 Small price
+264,NUM_1 - $
+265,", NUM_1 -"
+266,The $ NUM_1
+267,"$ NUM_1 """
+268,NUM_1 - our
+269,$ NUM_1 on
+270,$ NUM_1 Save
+271,was $ NUM_1
+272,"NUM_1 , but"
+273,- NUM_1 (
+274,$ NUM_1 Sale
+275,"NUM_1 , and"
+276,NUM_1 to the
+277,NUM_1 is a
+278,NUM_1 cd )
+279,NUM_1 just buy
+280,( NUM_1 cd
+281,NUM_1 of the
+282,$ NUM_1 each
+283,"NUM_1 NUM_2 ,"
+284,$ NUM_1 over
+285,$ NUM_1 $
+286,under $ NUM_1
+287,its $ NUM_1
+288,"NUM_1 , which"
+289,$ NUM_1 at
+290,$ NUM_1 after
+291,$ NUM_1 &
+292,$ NUM_1 K
+293,save $ NUM_1
+294,add $ NUM_1
+295,- NUM_1
+296,$ NUM_1 ;
+297,NUM_1 for a
+298,that $ NUM_1
+299,$ NUM_1 +
+300,", NUM_1 ,"
+301,are $ NUM_1
+302,NUM_1 NUM_2 -
+303,"NUM_1 NUM_2 """
+304,NUM_1 NUM_2 in
+305,NUM_1 % off
+306,NUM_1 for the
+307,just $ NUM_1
+308,"NUM_1 , a"
+309,NUM_1 dollar price
+310,$ NUM_1 with
+311,NUM_1 a barrel
+312,as $ NUM_1
+313,( NUM_1 price
+314,NUM_1 ( US$
+315,after NUM_1 %
+316,NUM_1 after NUM_2
+317,NUM_1 % decrease
+318,NUM_1 NUM_2
+319,$ NUM_1 save
+320,$ NUM_1 from
+321,NUM_1 and the
+322,NUM_1 and $
+323,NUM_1 at cheap
+324,$ NUM_1 |
+325,NUM_1 % of
+326,NUM_1 for NUM_2
+327,NUM_1 over the
+328,NUM_1 per person
+329,$ NUM_1 /
+330,$ NUM_1 discount
+331,NUM_1 €
+332,NUM_1 Sale price
+333,NUM_1 prices for
+334,between $ NUM_1
+335,+ $ NUM_1
+336,NUM_1 NUM_2 dollars
+337,- NUM_1 ;
+338,NUM_1 list price
+339,from NUM_1 €
+340,$ NUM_1 list
+341,$ NUM_1 more
+342,NUM_1 | date
+343,"NUM_1 , it"
+344,or $ NUM_1
+345,NUM_1 for $
+346,NUM_1 NUM_2 NUM_3
+347,NUM_1 ( price
+348,", NUM_1 price"
+349,NUM_1 asking price
+350,NUM_1 NUM_2 at
+351,A $ NUM_1
+352,NUM_1 purchase price
+353,$ NUM_1 PRICE
+354,$ NUM_1 which
+355,Save NUM_1 %
+356,NUM_1 ( $
+357,", NUM_1 NUM_2"
+358,NUM_1 per month
+359,$ NUM_1 the
+360,"US$ NUM_1 ,"
+361,approximately $ NUM_1
+362,NUM_1 -
+363,$ NUM_1 USD
+364,be $ NUM_1
+365,# NUM_1 price
+366,NUM_1 Save NUM_2
+367,paid $ NUM_1
+368,$ NUM_1 but
+369,$ NUM_1 as
+370,$ NUM_1 less
+371,( US$ NUM_1
+372,$ NUM_1 !
+373,NUM_1 a gallon
+374,$ NUM_1 retail
+375,NUM_1 's discount
+376,pay $ NUM_1
+377,Price $ NUM_1
+378,with $ NUM_1
+379,( NUM_1 %
+380,NUM_1 x NUM_2
+381,you $ NUM_1
+382,NUM_1 is the
+383,additional $ NUM_1
+384,NUM_1 a month
+385,"NUM_1 , with"
+386,get $ NUM_1
+387,Only $ NUM_1
+388,NUM_1 MB |
+389,NUM_1 to NUM_2
+390,$ NUM_1 Online
+391,NUM_1 less than
+392,$ NUM_1 asking
+393,NUM_1 Online price
+394,$ NUM_1 plus
+395,NUM_1 or more
+396,’s $ NUM_1
+397,NUM_1 mg NUM_2
+398,"NUM_1 dollars ,"
+399,$ NUM_1 purchase
+400,$ NUM_1 price
+401,NUM_1 price $ NUM_2
+402,the $ NUM_1 price
+403,price $ NUM_1 price
+404,  $ NUM_1 price
+405,prices    from NUM_1
+406,$ NUM_1 price $
+407,NUM_1 prices    from
+408,$ NUM_1 prices
+409,to $ NUM_1 prices
+410,$ NUM_1 Best price
+411,$ NUM_1 off the
+412,NUM_1 to $ NUM_2
+413,a $ NUM_1 price
+414,  $ NUM_1 Best
+415,buy   $ NUM_1
+416,$ NUM_1 to $
+417,to $ NUM_1 price
+418,  $ NUM_1
+419,- NUM_1 - NUM_2
+420,NUM_1 - NUM_2 -
+421,"for $ NUM_1 ,"
+422,NUM_1 Best price
+423,NUM_1 NUM_2 price
+424,US $ NUM_1 price
+425,price   $ NUM_1
+426,$ NUM_1 NUM_2 price
+427,in the $ NUM_1
+428,$ NUM_1 - NUM_2
+429,- NUM_1 price
+430,NUM_1 - NUM_2 price
+431,"$ NUM_1 , the"
+432,$ NUM_1 Small price
+433,"at $ NUM_1 ,"
+434,NUM_1 - $ NUM_2
+435,$ NUM_1 - our
+436,NUM_1 - our price
+437,with a $ NUM_1
+438,"$ NUM_1 , NUM_2"
+439,$ NUM_1 - $
+440,  $ NUM_1 Small
+441,NUM_1 - NUM_2 (
+442,download   $ NUM_1
+443,", NUM_1 - NUM_2"
+444,NUM_1 just buy
+445,( NUM_1 cd )
+446,product price $ NUM_1
+447,$ NUM_1 is a
+448,$ NUM_1 to the
+449,"$ NUM_1 , but"
+450,$ NUM_1 $ NUM_2
+451,Buy   $ NUM_1
+452,the $ NUM_1 NUM_2
+453,price $ NUM_1 NUM_2
+454,from $ NUM_1 to
+455,a $ NUM_1 NUM_2
+456,"$ NUM_1 , and"
+457,"$ NUM_1 , which"
+458,"$ NUM_1 NUM_2 ,"
+459,NUM_1 off the price
+460,worth the $ NUM_1
+461,at the $ NUM_1
+462,( $ NUM_1 )
+463,$ NUM_1 for a
+464,  $ NUM_1 price
+465,NUM_1 dollar price
+466,for $ NUM_1 (
+467,now at $ NUM_1
+468,more than $ NUM_1
+469,", the $ NUM_1"
+470,$ NUM_1 after NUM_2
+471,NUM_1 Small price
+472,$ NUM_1 NUM_2 in
+473,NUM_1 % decrease in
+474,at $ NUM_1 after
+475,after NUM_1 % decrease
+476,NUM_1 after NUM_2 %
+477,$ NUM_1 a barrel
+478,- NUM_1 ( US$
+479,"At $ NUM_1 ,"
+480,  $ NUM_1
+481,up to $ NUM_1
+482,NUM_1 at cheap price
+483,price $ NUM_1 -
+484,$ NUM_1 ( NUM_2
+485,NUM_1 and $ NUM_2
+486,of the $ NUM_1
+487,price   $ NUM_1
+488,$ NUM_1 for the
+489,price $ NUM_1
+490,$ NUM_1 over the
+491,$ NUM_1 and $
+492,"$ NUM_1 , a"
+493,"is $ NUM_1 ,"
+494,to $ NUM_1 NUM_2
+495,$ NUM_1 and the
+496,NUM_1 prices for this
+497,"NUM_1 , NUM_2 ,"
+498,NUM_1 - NUM_2 ;
+499,More   $ NUM_1
+500,NUM_1 €    Unit
+501,from NUM_1 €
+502,"to $ NUM_1 ,"
+503,NUM_1 list price
+504,less than $ NUM_1
+505,$ NUM_1 NUM_2 -
+506,$ NUM_1 of the
+507,$ NUM_1 Sale price
+508,NUM_1 to the price
+509,$ NUM_1 per person
+510,$ NUM_1 | date
+511,$ NUM_1 list price
+512,"NUM_1 , which is"
+513,$ NUM_1 for NUM_2
+514,NUM_1 ( NUM_2 cd
+515,NUM_1 off the regular
+516,NUM_1 for $ NUM_2
+517,its $ NUM_1 price
+518,NUM_1 ( price
+519,save $ NUM_1 off
+520,", NUM_1 , NUM_2"
+521,NUM_1 asking price
+522,NUM_1 purchase price
+523,  price $ NUM_1
+524,for only $ NUM_1
+525,$ NUM_1 ( price
+526,$ NUM_1 per month
+527,- Save $ NUM_1
+528,add $ NUM_1 to
+529,Save $ NUM_1 over
+530,for the $ NUM_1
+531,for $ NUM_1 and
+532,"$ NUM_1 , it"
+533,NUM_1 ( $ NUM_2
+534,at $ NUM_1 per
+535,NUM_1 's discount price
+536,"about $ NUM_1 ,"
+537,"NUM_1 , the price"
+538,$ NUM_1 's discount
+539,$ NUM_1 Save NUM_2
+540,$ NUM_1 a gallon
+541,$ NUM_1 NUM_2
+542,"of $ NUM_1 ,"
+543,the $ NUM_1 to
+544,$ NUM_1 NUM_2 at
+545,Sale price $ NUM_1
+546,- $ NUM_1 -
+547,NUM_1 MB | price
+548,( NUM_1 price
+549,NUM_1 Save NUM_2 %
+550,"NUM_1 , NUM_2 NUM_3"
+551,$ NUM_1 asking price
+552,$ NUM_1 Online price
+553,NUM_1 Online price
+554,$ NUM_1 a month
+555,NUM_1 Sale price
+556,NUM_1 - NUM_2
+557,NUM_1 retail price
+558,NUM_1 % of the
+559,NUM_1 -   just
+560,$ NUM_1 less than
+561,$ NUM_1 retail price
+562,NUM_1 cd ) just
+563,NUM_1 % off the
+564,start at $ NUM_1
+565,is $ NUM_1 per
+566,to $ NUM_1 per
+567,$ NUM_1 purchase price
+568,NUM_1 ; Music CDBest
+569,cost is $ NUM_1
+570,of $ NUM_1 per
+571,- NUM_1 ; Music
+572,that the $ NUM_1
+573,$ NUM_1 Cordon Bleu
+574,sold for $ NUM_1
+575,( NUM_1 dvd )
+576,$ NUM_1 per barrel
+577,NUM_1 over the cover
+578,$ NUM_1 is the
+579,", $ NUM_1 is"
+580,$ NUM_1 Sale Price
+581,an additional $ NUM_1
+582,NUM_1 ( US$ NUM_2
+583,the $ NUM_1 -
+584,"$ NUM_1 , with"
+585,NUM_1 in price
+586,to the $ NUM_1
+587,$ NUM_1 !
+588,for about $ NUM_1
+589,at $ NUM_1 and
+590,"NUM_1 , $ NUM_2"
+591,$ NUM_1 which is
+592,NUM_1 ticket price
+593,NUM_1 ( US$ nominal
+594,a $ NUM_1 discount
+595,$ NUM_1 per gallon
+596,"NUM_1 , price"
+597,at $ NUM_1 a
+598,between $ NUM_1 and
+599,$ NUM_1 ticket price
+600,the $ NUM_1 price
+601,NUM_1 prices    from NUM_2
+602,$ NUM_1 price $ NUM_2
+603,$ NUM_1 prices    from
+604,to $ NUM_1 prices
+605,price $ NUM_1 price $
+606,a $ NUM_1 price
+607,  $ NUM_1 Best price
+608,just buy   $ NUM_1
+609,price $ NUM_1 price
+610,$ NUM_1 to $ NUM_2
+611,to $ NUM_1 price
+612,buy   $ NUM_1 Best
+613,$ NUM_1 Best price
+614,price   $ NUM_1
+615,cheap price   $ NUM_1
+616,NUM_1 price $ NUM_2 price
+617,$ NUM_1 NUM_2 price
+618,US $ NUM_1 price
+619,  $ NUM_1 price
+620,NUM_1 - NUM_2 - NUM_3
+621,NUM_1 - our price
+622,$ NUM_1 - our price
+623,  $ NUM_1 Small price
+624,download   $ NUM_1 Small
+625,just download   $ NUM_1
+626,$ NUM_1 - $ NUM_2
+627,NUM_1 just buy   $
+628,", NUM_1 - NUM_2 ("
+629,Buy   $ NUM_1 Best
+630,NUM_1 off the price
+631,from $ NUM_1 to $
+632,$ NUM_1 off the price
+633,$ NUM_1 Small price
+634,NUM_1 after NUM_2 % decrease
+635,after NUM_1 % decrease in
+636,$ NUM_1 after NUM_2 %
+637,at $ NUM_1 after NUM_2
+638,now at $ NUM_1 after
+639,NUM_1 - NUM_2 ( US$
+640,Baby product price $ NUM_1
+641,", now at $ NUM_1"
+642,NUM_1 at cheap price
+643,with a $ NUM_1 price
+644,buy   $ NUM_1 price
+645,NUM_1 - NUM_2 price
+646,in the $ NUM_1 price
+647,- NUM_1 - NUM_2 -
+648,$ NUM_1 and $ NUM_2
+649,NUM_1 % decrease in price
+650,NUM_1 €    Unit price
+651,from NUM_1 €    Unit
+652,NUM_1 price $ NUM_2 NUM_3
+653,- NUM_1 - NUM_2 ;
+654,NUM_1 prices for this product
+655,NUM_1 to the price
+656,NUM_1 ( NUM_2 cd )
+657,$ NUM_1 list price
+658,its $ NUM_1 price
+659,$ NUM_1 off the regular
+660,at the $ NUM_1 price
+661,$ NUM_1 to the price
+662,"$ NUM_1 , which is"
+663,$ NUM_1 ( price
+664,worth the $ NUM_1 price
+665,$ NUM_1 's discount price
+666,- Save $ NUM_1 over
+667,Subscription - Save $ NUM_1
+668,NUM_1 to $ NUM_2 price
+669,the $ NUM_1 NUM_2 price
+670,"NUM_1 , the price"
+671,NUM_1 MB | price
+672,$ NUM_1 asking price
+673,$ NUM_1 Online price
+674,a $ NUM_1 NUM_2 price
+675,"NUM_1 , NUM_2 , NUM_3"
+676,the $ NUM_1 to $
+677,$ NUM_1 Save NUM_2 %
+678,$ NUM_1 Sale price
+679,  $ NUM_1 price $
+680,$ NUM_1 retail price
+681,NUM_1 -   just download
+682,NUM_1 cd ) just buy
+683,Save $ NUM_1 over the
+684,( NUM_1 cd ) just
+685,NUM_1 price $ NUM_2 -
+686,NUM_1 ; Music CDBest price
+687,NUM_1 - NUM_2 ; Music
+688,- NUM_1 ; Music CDBest
+689,$ NUM_1 purchase price
+690,NUM_1 off the regular price
+691,NUM_1 over the cover price
+692,$ NUM_1 over the cover
+693,- $ NUM_1 - $
+694,", the $ NUM_1 price"
+695,- NUM_1 ( US$ NUM_2
+696,- NUM_1 ( US$ nominal
+697,NUM_1 ( US$ nominal price
+698,"$ NUM_1 , the price"
+699,NUM_1 to $ NUM_2 prices
+700,save $ NUM_1 off the
+701,$ NUM_1 ticket price
+702,and $ NUM_1 price
+703,NUM_1 price $ NUM_2
+704,NUM_1 to $ NUM_2 NUM_3
+705,$ NUM_1 in price
+706,between $ NUM_1 and $
+707,price $ NUM_1 - Ban
+708,'s $ NUM_1 price
+709,in the $ NUM_1 to
+710,NUM_1 Buy   $ NUM_2
+711,"$ NUM_1 , price"
+712,"NUM_1 to $ NUM_2 ,"
+713,  $ NUM_1 price
+714,$ NUM_1 cover price
+715,add $ NUM_1 to the
+716,- NUM_1 price $ NUM_2
+717,NUM_1 from NUM_2 €
+718,- NUM_1 from NUM_2 €
+719,$ NUM_1 or $ NUM_2
+720,$ NUM_1 base price
+721,"expenditure per capita , NUM_1"
+722,"capita , NUM_1 - NUM_2"
+723,"per capita , NUM_1 -"
+724,$ NUM_1 ( $ NUM_2
+725,of the $ NUM_1 price
+726,"for $ NUM_1 , which"
+727,for the $ NUM_1 price
+728,$ NUM_1 less than the
+729,"$ NUM_1 , $ NUM_2"
+730,- NUM_1 - NUM_2 price
+731,and save $ NUM_1 off
+732,"NUM_1 , a price"
+733,"$ NUM_1 , and the"
+734,the $ NUM_1 asking price
+735,$ NUM_1 + price
+736,Compare prices    from NUM_1
+737,NUM_1 's discount price
+738,NUM_1 at list price
+739,$ NUM_1 ( NUM_2 %
+740,) Buy   $ NUM_1
+741,The cost is $ NUM_1
+742,NUM_1 NUM_2 at list price
+743,"$ NUM_1 , NUM_2 ,"
+744,( NUM_1 cd ) at
+745,$ NUM_1 ( regular price
+746,get $ NUM_1 off the
+747,$ NUM_1 starting price
+748,$ NUM_1 sale price
+749,"At $ NUM_1 , the"
+750,NUM_1 ( regular price
+751,""" ( NUM_1 mm )"
+752,"NUM_1 "" ( NUM_2 mm"
+753,NUM_1     |     Sale
+754,$ NUM_1     |
+755,"$ NUM_1 a barrel ,"
+756,$ NUM_1 NUM_2 at list
+757,$ NUM_1 NUM_2 - NUM_3
+758,as low as $ NUM_1
+759,NUM_1 cd ) at cheap
+760,well worth the $ NUM_1
+761,- $ NUM_1 price
+762,$ NUM_1 more than the
+763,"$ NUM_1 , a price"
+764,", NUM_1 , NUM_2 ,"
+765,$ NUM_1 - NUM_2 price
+766,"At $ NUM_1 , it"
+767,"$ NUM_1 class=""sale - price"
+768,NUM_1 ( US$ NUM_2 nominal
+769,NUM_1 - $ NUM_2 -
+770,( US$ NUM_1 nominal price
+771,receive $ NUM_1 off the
+772,US$ NUM_1 nominal price
+773,"NUM_1 class=""sale - price"
+774,NUM_1 Cabinet Knobs and Pulls
+775,NUM_1 to $ NUM_2 per
+776,that $ NUM_1 price
+777,the $ NUM_1 purchase price
+778,", that 's $ NUM_1"
+779,( NUM_1 mm )
+780,$ NUM_1 Cabinet Knobs and
+781,the NUM_1 dollar price
+782,NUM_1 NUM_2 dollar price
+783,with the $ NUM_1 price
+784,NUM_1 and the price
+785,$ NUM_1 K price
+786,$ NUM_1 $ NUM_2
+787,range from $ NUM_1 to
+788,"for $ NUM_1 , the"
+789,$ NUM_1 ( list price
+790,SunglassesList price $ NUM_1 price
+791,"$ NUM_1 , but the"
+792,NUM_1 - NUM_2 price $
+793,"at $ NUM_1 , the"
+794,", $ NUM_1 is a"
+795,NUM_1 cd ) -
+796,to $ NUM_1 NUM_2 -
+797,"less than $ NUM_1 ,"
+798,NUM_1 - dollar price
+799,on sale for $ NUM_1
+800,$ NUM_1 prices    from NUM_2
+801,to $ NUM_1 prices    from
+802,price $ NUM_1 price $ NUM_2
+803,buy   $ NUM_1 Best price
+804,just buy   $ NUM_1 Best
+805,  $ NUM_1 Best price
+806,cheap price   $ NUM_1
+807,at cheap price   $ NUM_1
+808,$ NUM_1 - our price
+809,download   $ NUM_1 Small price
+810,just download   $ NUM_1 Small
+811,  just download   $ NUM_1
+812,NUM_1 just buy   $ NUM_2
+813,NUM_1 price $ NUM_2 price $
+814,Buy   $ NUM_1 Best price
+815,from $ NUM_1 to $ NUM_2
+816,$ NUM_1 off the price
+817,NUM_1 price $ NUM_2 price
+818,  $ NUM_1 Small price
+819,$ NUM_1 after NUM_2 % decrease
+820,NUM_1 after NUM_2 % decrease in
+821,at $ NUM_1 after NUM_2 %
+822,now at $ NUM_1 after NUM_2
+823,", now at $ NUM_1 after"
+824,", NUM_1 - NUM_2 ( US$"
+825,NUM_1 at cheap price   $
+826,with a $ NUM_1 price
+827,) just buy   $ NUM_1
+828,in the $ NUM_1 price
+829,just buy   $ NUM_1 price
+830,after NUM_1 % decrease in price
+831,NUM_1 €    Unit price
+832,from NUM_1 €    Unit price
+833,NUM_1 - NUM_2 - NUM_3 ;
+834,NUM_1 prices for this product -
+835,at the $ NUM_1 price
+836,$ NUM_1 to the price
+837,worth the $ NUM_1 price
+838,Subscription - Save $ NUM_1 over
+839,the $ NUM_1 NUM_2 price
+840,$ NUM_1 to $ NUM_2 price
+841,NUM_1 to $ NUM_2 price
+842,$ NUM_1 price $ NUM_2 NUM_3
+843,Magazine Subscription - Save $ NUM_1
+844,a $ NUM_1 NUM_2 price
+845,the $ NUM_1 to $ NUM_2
+846,NUM_1 -   just download
+847,NUM_1 cd ) just buy
+848,- NUM_1 - NUM_2 - NUM_3
+849,( NUM_1 cd ) just buy
+850,  $ NUM_1 price $ NUM_2
+851,- NUM_1 ; Music CDBest price
+852,- NUM_1 - NUM_2 ; Music
+853,NUM_1 ; Music CDBest price
+854,NUM_1 - NUM_2 ; Music CDBest
+855,NUM_1 off the regular price
+856,NUM_1 over the cover price
+857,$ NUM_1 over the cover price
+858,$ NUM_1 off the regular price
+859,- Save $ NUM_1 over the
+860,Save $ NUM_1 over the cover
+861,", the $ NUM_1 price"
+862,NUM_1 - NUM_2 ( US$ nominal
+863,NUM_1 - NUM_2 ( US$ NUM_3
+864,- NUM_1 ( US$ nominal price
+865,NUM_1 ( US$ nominal price
+866,"$ NUM_1 , the price"
+867,NUM_1 to $ NUM_2 prices
+868,- $ NUM_1 - $ NUM_2
+869,NUM_1 - NUM_2 - NUM_3 -
+870,$ NUM_1 price $ NUM_2
+871,NUM_1 % decrease in price !
+872,between $ NUM_1 and $ NUM_2
+873,NUM_1 % decrease in price
+874,"$ NUM_1 to $ NUM_2 ,"
+875,in the $ NUM_1 to $
+876,NUM_1 Buy   $ NUM_2 Best
+877,- NUM_1 price $ NUM_2 price
+878,NUM_1 from NUM_2 €    Unit
+879,- NUM_1 from NUM_2 €
+880,"capita , NUM_1 - NUM_2 ("
+881,"expenditure per capita , NUM_1 -"
+882,"per capita , NUM_1 - NUM_2"
+883,of the $ NUM_1 price
+884,for the $ NUM_1 price
+885,$ NUM_1 to $ NUM_2 NUM_3
+886,"forecast expenditure per capita , NUM_1"
+887,the $ NUM_1 asking price
+888,$ NUM_1 's discount price
+889,NUM_1 NUM_2 at list price
+890,) Buy   $ NUM_1 Best
+891,buy   $ NUM_1 price
+892,NUM_1     |     Sale price
+893,$ NUM_1     |     Sale
+894,"NUM_1 "" ( NUM_2 mm )"
+895,$ NUM_1 ( regular price
+896,NUM_1 ( NUM_2 cd ) just
+897,$ NUM_1 NUM_2 at list price
+898,$ NUM_1 price $ NUM_2 -
+899,NUM_1 cd ) at cheap price
+900,( NUM_1 cd ) at cheap
+901,"$ NUM_1 class=""sale - price"
+902,( US$ NUM_1 nominal price
+903,- NUM_1 ( US$ NUM_2 nominal
+904,NUM_1 ( US$ NUM_2 nominal price
+905,$ NUM_1 - NUM_2 price
+906,"$ NUM_1 , a price"
+907,the $ NUM_1 purchase price
+908,$ NUM_1 Cabinet Knobs and Pulls
+909,""" ( NUM_1 mm )"
+910,"for $ NUM_1 , which is"
+911,$ NUM_1 to $ NUM_2 per
+912,with the $ NUM_1 price
+913,"$ NUM_1 , NUM_2 , NUM_3"
+914,and a $ NUM_1 price
+915,NUM_1 price $ NUM_2 - Ban
+916,range from $ NUM_1 to $
+917,that the $ NUM_1 price
+918,"$ NUM_1 , which is a"
+919,$ NUM_1 ( list price
+920,the $ NUM_1 ticket price
+921,add $ NUM_1 to the price
+922,at a $ NUM_1 price
+923,- NUM_1 - NUM_2 ; DVDBest
+924,NUM_1 - NUM_2 ; DVDBest price
+925,$ NUM_1 and the price
+926,( NUM_1 cd ) -
+927,NUM_1 - $ NUM_2 - $
+928,"value , NUM_1 - NUM_2 ("
+929,$ NUM_1 - $ NUM_2 -
+930,and the $ NUM_1 price
+931,"NUM_1 , NUM_2 , NUM_3 ,"
+932,- NUM_1 ; DVDBest price
+933,rating and $ NUM_1 price
+934,", NUM_1 , NUM_2 , NUM_3"
+935,NUM_1 - NUM_2 price $ NUM_3
+936,"shipping , that 's $ NUM_1"
+937,the $ NUM_1 retail price
+938,"- NUM_1 ( US$ NUM_2 ,"
+939,List price $ NUM_1 price $
+940,NUM_1 cd ) -   just
+941,to the $ NUM_1 price
+942,% from $ NUM_1 to $
+943,"expenditure per head , NUM_1 -"
+944,"per head , NUM_1 - NUM_2"
+945,the $ NUM_1 list price
+946,SunglassesList price $ NUM_1 price $
+947,has a $ NUM_1 price
+948,NUM_1 % from $ NUM_2 to
+949,"head , NUM_1 - NUM_2 ("
+950,NUM_1 - $ NUM_2 price
+951,", by company , NUM_1 -"
+952,"value , by company , NUM_1"
+953,decreased NUM_1 % from $ NUM_2
+954,"by company , NUM_1 - NUM_2"
+955,"company , NUM_1 - NUM_2 ("
+956,price decreased NUM_1 % from $
+957,"NUM_1 , NUM_2 for $ NUM_3"
+958,’s price decreased NUM_1 % from
+959,NUM_1 dvd ) just buy
+960,Usually ships in NUM_1 - NUM_2
+961,NUM_1 is a small price
+962,NUM_1 off the list price
+963,is the $ NUM_1 price
+964,$ NUM_1 - $ NUM_2 price
+965,NUM_1 cd ) Buy   $
+966,NUM_1 to $ NUM_2 NUM_3 -
+967,NUM_1 price $ NUM_2 - Art
+968,cd ) Buy   $ NUM_1
+969,( NUM_1 cd ) Buy
+970,( NUM_1 dvd ) just buy
+971,"NUM_1 , NUM_2 fuel price"
+972,"* FUEL SUPPLEMENT UPDATEDecember NUM_1 ,"
+973,"$ NUM_1 , NUM_2 for $"
+974,"SUPPLEMENT UPDATEDecember NUM_1 , NUM_2 fuel"
+975,NUM_1 - NUM_2 - NUM_3
+976,$ NUM_1 off the list price
+977,"UPDATEDecember NUM_1 , NUM_2 fuel price"
+978,"With $ NUM_1 for shipping ,"
+979,"FUEL SUPPLEMENT UPDATEDecember NUM_1 , NUM_2"
+980,"$ NUM_1 and $ NUM_2 ,"
+981,the $ NUM_1 + price
+982,NUM_1 firm - fixed - price
+983,and save $ NUM_1 off the
+984,$ NUM_1 NUM_2 purchase price
+985,- NUM_1 - NUM_2 price
+986,$ NUM_1 is a small price
+987,$ NUM_1 ( Recommended price
+988,$ NUM_1 off regular price
+989,NUM_1 of the purchase price
+990,( USD ) / Royal NUM_1
+991,well worth the $ NUM_1 price
+992,"forecast , NUM_1 - NUM_2 ("
+993,  NUM_1 % ( $ NUM_2
+994,a $ NUM_1 discount off the
+995,$ NUM_1 on changes made with
+996,NUM_1 prices    from NUM_2 storesHP
+997,"forecast expenditure per head , NUM_1"
+998,$ NUM_1 / MP3 price
+999,add $ NUM_1 in price
+1000,to $ NUM_1 prices    from NUM_2
+1001,just buy   $ NUM_1 Best price
+1002,at cheap price   $ NUM_1
+1003,buy   $ NUM_1 Best price
+1004,just download   $ NUM_1 Small price
+1005,  just download   $ NUM_1 Small
+1006,-   just download   $ NUM_1
+1007,NUM_1 price $ NUM_2 price $ NUM_3
+1008,NUM_1 just buy   $ NUM_2 Best
+1009,download   $ NUM_1 Small price
+1010,$ NUM_1 after NUM_2 % decrease in
+1011,at $ NUM_1 after NUM_2 % decrease
+1012,now at $ NUM_1 after NUM_2 %
+1013,", now at $ NUM_1 after NUM_2"
+1014,Buy   $ NUM_1 Best price
+1015,NUM_1 at cheap price   $ NUM_2
+1016,NUM_1 after NUM_2 % decrease in price
+1017,from NUM_1 €    Unit price
+1018,) just buy   $ NUM_1 Best
+1019,$ NUM_1 to $ NUM_2 price
+1020,Magazine Subscription - Save $ NUM_1 over
+1021,cd ) just buy   $ NUM_1
+1022,NUM_1 cd ) just buy   $
+1023,NUM_1 -   just download   $
+1024,( NUM_1 cd ) just buy
+1025,- NUM_1 - NUM_2 ; Music CDBest
+1026,NUM_1 - NUM_2 ; Music CDBest price
+1027,NUM_1 - NUM_2 - NUM_3 ; Music
+1028,- NUM_1 ; Music CDBest price
+1029,$ NUM_1 over the cover price
+1030,Subscription - Save $ NUM_1 over the
+1031,- Save $ NUM_1 over the cover
+1032,Save $ NUM_1 over the cover price
+1033,$ NUM_1 off the regular price
+1034,) at cheap price   $ NUM_1
+1035,", NUM_1 - NUM_2 ( US$ nominal"
+1036,- NUM_1 ( US$ nominal price
+1037,NUM_1 - NUM_2 ( US$ nominal price
+1038,NUM_1 to $ NUM_2 prices    from
+1039,the $ NUM_1 to $ NUM_2 price
+1040,price $ NUM_1 price $ NUM_2 NUM_3
+1041,price $ NUM_1 price $ NUM_2
+1042,after NUM_1 % decrease in price !
+1043,NUM_1 % decrease in price !
+1044,", NUM_1 - NUM_2 ( US$ NUM_3"
+1045,after NUM_1 % decrease in price
+1046,in the $ NUM_1 to $ NUM_2
+1047,NUM_1 Buy   $ NUM_2 Best price
+1048,NUM_1 from NUM_2 €    Unit price
+1049,- NUM_1 from NUM_2 €    Unit
+1050,"expenditure per capita , NUM_1 - NUM_2"
+1051,"per capita , NUM_1 - NUM_2 ("
+1052,NUM_1 just buy   $ NUM_2 price
+1053,"capita , NUM_1 - NUM_2 ( US$"
+1054,"forecast expenditure per capita , NUM_1 -"
+1055,) Buy   $ NUM_1 Best price
+1056,just buy   $ NUM_1 price
+1057,NUM_1     |     Sale price
+1058,$ NUM_1     |     Sale price
+1059,$ NUM_1 NUM_2 at list price
+1060,NUM_1 ( NUM_2 cd ) just buy
+1061,NUM_1 cd ) at cheap price
+1062,( NUM_1 cd ) at cheap price
+1063,- NUM_1 price $ NUM_2 price
+1064,- NUM_1 ( US$ NUM_2 nominal price
+1065,NUM_1 - NUM_2 ( US$ NUM_3 nominal
+1066,NUM_1 ( US$ NUM_2 nominal price
+1067,- NUM_1 - NUM_2 - NUM_3 -
+1068,from $ NUM_1 to $ NUM_2 NUM_3
+1069,"NUM_1 "" ( NUM_2 mm )"
+1070,price $ NUM_1 price $ NUM_2 -
+1071,NUM_1 - NUM_2 - NUM_3 - NUM_4
+1072,range from $ NUM_1 to $ NUM_2
+1073,add $ NUM_1 to the price
+1074,NUM_1 - NUM_2 - NUM_3 ; DVDBest
+1075,- NUM_1 - NUM_2 ; DVDBest price
+1076,NUM_1 - NUM_2 ; DVDBest price
+1077,NUM_1 - $ NUM_2 - $ NUM_3
+1078,NUM_1 - NUM_2 price $ NUM_3 price
+1079,"NUM_1 - NUM_2 ( US$ NUM_3 ,"
+1080,"from $ NUM_1 to $ NUM_2 ,"
+1081,% from $ NUM_1 to $ NUM_2
+1082,NUM_1 cd ) -   just download
+1083,dvd ) just buy   $ NUM_1
+1084,"expenditure per head , NUM_1 - NUM_2"
+1085,"per head , NUM_1 - NUM_2 ("
+1086,NUM_1 % from $ NUM_2 to $
+1087,price decreased NUM_1 % from $ NUM_2
+1088,", by company , NUM_1 - NUM_2"
+1089,$ NUM_1 - $ NUM_2 - $
+1090,) just buy   $ NUM_1 price
+1091,"value , by company , NUM_1 -"
+1092,decreased NUM_1 % from $ NUM_2 to
+1093,"by company , NUM_1 - NUM_2 ("
+1094,’s price decreased NUM_1 % from $
+1095,NUM_1 dvd ) just buy   $
+1096,List price $ NUM_1 price $ NUM_2
+1097,( NUM_1 cd ) -   just
+1098,"NUM_1 , NUM_2 , NUM_3 , NUM_4"
+1099,$ NUM_1 - $ NUM_2 price
+1100,NUM_1 cd ) Buy   $ NUM_2
+1101,( NUM_1 cd ) Buy   $
+1102,( NUM_1 dvd ) just buy
+1103,"* FUEL SUPPLEMENT UPDATEDecember NUM_1 , NUM_2"
+1104,"SUPPLEMENT UPDATEDecember NUM_1 , NUM_2 fuel price"
+1105,"UPDATEDecember NUM_1 , NUM_2 fuel price"
+1106,"FUEL SUPPLEMENT UPDATEDecember NUM_1 , NUM_2 fuel"
+1107,SunglassesList price $ NUM_1 price $ NUM_2
+1108,$ NUM_1 off the list price
+1109,"$ NUM_1 , NUM_2 for $ NUM_3"
+1110,NUM_1 firm - fixed - price
+1111,cd ) Buy   $ NUM_1 Best
+1112,- NUM_1 - NUM_2 - NUM_3
+1113,* ( USD ) / Royal NUM_1
+1114,$ NUM_1 is a small price
+1115,well worth the $ NUM_1 price
+1116,- $ NUM_1 - $ NUM_2 -
+1117,$ NUM_1 to $ NUM_2 NUM_3 -
+1118,"forecast expenditure per head , NUM_1 -"
+1119,$ NUM_1 prices    from NUM_2 storesHP
+1120,( add $ NUM_1 in price
+1121,"head , NUM_1 - NUM_2 ( US$"
+1122,$ NUM_1 off the original price
+1123,  $ NUM_1 prices    from NUM_2
+1124,$ NUM_1 price $ NUM_2 - Art
+1125,$ NUM_1 to $ NUM_2 prices
+1126,$ NUM_1   ( NUM_2 % )
+1127,the $ NUM_1 - NUM_2 price
+1128,$ NUM_1 off the retail price
+1129,  $ NUM_1   ( NUM_2 %
+1130,cds ) just buy   $ NUM_1
+1131,  to $ NUM_1 prices    from
+1132,Usually ships in NUM_1 - NUM_2 business
+1133,$ NUM_1 is a good price
+1134,NUM_1 cds ) just buy   $
+1135,"- NUM_1 ( US$ NUM_2 , nominal"
+1136,"( US$ NUM_1 , nominal price"
+1137,  $ NUM_1 Cabinet Knobs and Pulls
+1138,"NUM_1 ( US$ NUM_2 , nominal price"
+1139,$ NUM_1 off our normal price
+1140,$ NUM_1 prices    from NUM_2 sellerFrigidaire
+1141,"$ NUM_1 , the same price"
+1142,"free shipping , that 's $ NUM_1"
+1143,"NUM_1 NUM_2 "" ( NUM_3 mm )"
+1144,"between $ NUM_1 and $ NUM_2 ,"
+1145,( NUM_1 cds ) just buy
+1146,By Name$0 - $ NUM_1 - $
+1147,"value , NUM_1 - NUM_2 ( US$"
+1148,Qualified orders over $ NUM_1 ship free
+1149,  price $ NUM_1 price $ NUM_2
+1150,$ NUM_1 of the purchase price
+1151,included in the $ NUM_1 price
+1152,NUM_1 dvd ) at cheap price
+1153,NUM_1 ( NUM_2 cd ) at cheap
+1154,"$ NUM_1 , NUM_2 , NUM_3 ,"
+1155,NUM_1 ( NUM_2 cd ) -
+1156,Price ( MAP ) $ NUM_1 price
+1157,Name$0 - $ NUM_1 - $ NUM_2
+1158,with a $ NUM_1 NUM_2 price
+1159,NUM_1 oz Eau De Toilette Spray for
+1160,Advertised Price ( MAP ) $ NUM_1
+1161,"company , NUM_1 - NUM_2 ( US$"
+1162,( MAP ) $ NUM_1 price
+1163,"value forecast , NUM_1 - NUM_2 ("
+1164,", NUM_1 oz Eau De Toilette Spray"
+1165,( NUM_1 dvd ) at cheap price
+1166,Save $ NUM_1 over cover price
+1167,$ NUM_1 prices    from NUM_2 sellerElectrolux
+1168,save $ NUM_1 off our normal price
+1169,Subscription - Save $ NUM_1 over cover
+1170,- Save $ NUM_1 over cover price
+1171,"shipping , that 's $ NUM_1 under"
+1172,$ NUM_1 prices    from NUM_2 sellersHP
+1173,NUM_1 NUM_2 firm - fixed - price
+1174,and save $ NUM_1 off our normal
+1175,for $ NUM_1 ( regular price
+1176,$ NUM_1 NUM_2 firm - fixed -
+1177,- NUM_1 price $ NUM_2 price $
+1178,DVD DVD for $ NUM_1 and other
+1179,$ NUM_1 off the cover price
+1180,with set and save $ NUM_1 off
+1181,", but the $ NUM_1 price"
+1182,set and save $ NUM_1 off our
+1183,DVD for $ NUM_1 and other great
+1184,Buy with set and save $ NUM_1
+1185,$ NUM_1 off the normal price
+1186,the $ NUM_1 - $ NUM_2 price
+1187,", NUM_1 - NUM_2 ( HK$ m"
+1188,price $ NUM_1 - Ban Bifocal Sunglasses
+1189,"& value forecast , NUM_1 - NUM_2"
+1190,Magazine Magazine Subscription - Save $ NUM_1
+1191,$ NUM_1 PRICE = = = >
+1192,NUM_1 Senior Short Sleeve Hockey Shirt -
+1193,", and the $ NUM_1 price"
+1194,"$ NUM_1 , but the price"
+1195,"forecast , NUM_1 - NUM_2 ( US$"
+1196,NUM_1 % off the cover price
+1197,NUM_1 ( NUM_2 cd ) Buy
+1198,save $ NUM_1 off the regular price
+1199,get $ NUM_1 off the price

@@ -37,6 +37,6 @@ if __name__ == "__main__":
                         template_pool.append(sent_template)
                         non_redun_sents.append(line)
 
-    with open(output_file, "w") as ofile:
+    with open(output_file, "w+") as ofile:
         for sent in non_redun_sents:
             ofile.write(sent)
