@@ -10,15 +10,17 @@ nlp = spacy.load('en_core_web_sm')
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-fname", type=str, help="The input file name", default="./text.txt")
-    parser.add_argument("-top", type=int, help="The number of common patterns to be output for each ngram group", default=30)    
+    parser.add_argument("-top", type=int, help="The number of common patterns to be output for each ngram group", default=30)
+    parser.add_argument("-lg", type=int, help="The lower bound of the gram numbers", default=2)
+    parser.add_argument("-ug", type=int, help="The upper bound of the gram numbers", default=7)    
     args = parser.parse_args()
 
     input_file = args.fname
     top_num = args.top
     output_file = "ngram_group_rank_result.csv"
 
-    lower_ngram = 2
-    upper_ngram = 5
+    lower_ngram = args.lg
+    upper_ngram = args.ug
 
     # Obtain ngrams from all sentences
     # Normalize numbers
