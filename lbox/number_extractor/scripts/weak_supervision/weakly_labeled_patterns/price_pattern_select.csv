@@ -1,0 +1,44 @@
+index,sent,lb,ub,currency,rate
+,between $ NUM_1 and $ NUM_2,NUM_1,NUM_2,$,-
+,the $ NUM_1 - NUM_2 price,NUM_1,NUM_2,$,-
+,$ NUM_1 to $ NUM_2 prices,NUM_1,NUM_2,$,-
+,$ NUM_1 - $ NUM_2,NUM_1,NUM_2,$,-
+,from $ NUM_1 to $ NUM_2,NUM_1,NUM_2,$,-
+,range from $ NUM_1 to $ NUM_2,NUM_1,NUM_2,$,-
+,"per capita , NUM_1 - NUM_2",NUM_1,NUM_2,$,capita
+,in the $ NUM_1 to $ NUM_2,NUM_1,NUM_2,$,-
+,$ NUM_1 - $ NUM_2 price,NUM_1,NUM_2,$,-
+,$ NUM_1 to $ NUM_2 per,NUM_1,NUM_2,$,-
+,$ NUM_1 - $ NUM_2,NUM_1,NUM_2,$,-
+,$ NUM_1 to $ NUM_2,NUM_1,NUM_2,$,-
+,start at $ NUM_1,NUM_1,-,$,-
+,NUM_1 - NUM_2,NUM_1,NUM_2,-,-
+,$ NUM_1 a month,NUM_1,NUM_1,$,month
+,less than $ NUM_1,-,NUM_1,$,-
+,up to $ NUM_1,-,NUM_1,$,-
+,$ NUM_1 a barrel,NUM_1,NUM_1,$,barrel
+,more than $ NUM_1,NUM_1,-,$,-
+,NUM_1 dollars,NUM_1,NUM_1,dollars,-
+,NUM_1 or more,NUM_1,-,-,-
+,$ NUM_1 plus,NUM_1,-,$,-
+,NUM_1 to NUM_2,NUM_1,NUM_2,-,-
+,US$ NUM_1,NUM_1,NUM_1,US$,-
+,NUM_1 €,NUM_1,NUM_1,€,-
+,under $ NUM_1,-,NUM_1,$,-
+,$ NUM_1 each,NUM_1,NUM_1,$,each
+,over $ NUM_1,NUM_1,-,$,-
+,NUM_1 yuan,NUM_1,NUM_1,yuan,-
+,£ NUM_1,NUM_1,NUM_1,£,-
+,over NUM_1,NUM_1,-,-,-
+,NUM_1 yen,NUM_1,NUM_1,yen,-
+,NUM_1 cents,NUM_1,NUM_1,cents,-
+,NUM_1 USD,NUM_1,NUM_1,USD,-
+,NUM_1 US,NUM_1,NUM_1,US,-
+,NUM_1 euro,NUM_1,NUM_1,euro,-
+,NUM_1 euros,NUM_1,NUM_1,euros,-
+,NUM_1 bucks,NUM_1,NUM_1,bucks,-
+,€ NUM_1,NUM_1,NUM_1,€,-
+,NUM_1 dollar,NUM_1,NUM_1,dollar,-
+,NUM_1 $,NUM_1,NUM_1,$,-
+,NUM_1 dollars,NUM_1,NUM_1,dollars,-
+,$ NUM_1,NUM_1,NUM_1,$,-
