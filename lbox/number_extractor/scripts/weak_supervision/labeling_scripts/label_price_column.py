@@ -71,10 +71,9 @@ if __name__ == "__main__":
     sents = []    
     with open(input_fname) as ifile:
         for line in ifile:
-            new_line = separate_numbers(line)
             doc = nlp(line)
-            sents.append(doc.text)
-    # print("sents: {}".format(sents))
+            new_line = separate_numbers(doc.text)
+            sents.append(new_line)
 
     # Read extraction rules for labeling
     # extract_fname = "./exp_patterns_label.csv"
