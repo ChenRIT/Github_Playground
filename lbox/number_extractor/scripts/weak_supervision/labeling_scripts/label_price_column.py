@@ -6,7 +6,8 @@ import argparse
 import spacy
 from spacy.symbols import NUM
 
-nlp = spacy.load('en_core_web_lg')
+import en_core_web_lg
+nlp = en_core_web_lg.load()
 
 def separate_numbers(sent):
   # Separate numbers and its following words, e.g., 6.99you
