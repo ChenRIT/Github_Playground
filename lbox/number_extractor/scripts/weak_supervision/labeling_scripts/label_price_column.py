@@ -25,7 +25,7 @@ def abstract_number(sent_string):
     is_num_chunk = False
     num_chunks = ""
 
-    ori_sent = sent_parse.text
+    ori_sent = sent_string
     
     for token in sent_parse:
         #print("Pos of {} is {}".format(token.text, token.pos_))
