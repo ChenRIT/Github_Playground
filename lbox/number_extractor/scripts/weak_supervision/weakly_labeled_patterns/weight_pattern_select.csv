@@ -1,0 +1,112 @@
+index,pattern,Lb,Ub,Unit,Rate
+,less than NUM_1 lbs,-,NUM_1,lbs,-
+,over NUM_1 lbs,NUM_1,-,lbs,-
+,from NUM_1 to NUM_2 mg kg,NUM_1,NUM_2,mg,-
+,range of NUM_1 to NUM_2 kg,NUM_1,NUM_2,kg,-
+,less than NUM_1 pounds,-,NUM_1,pounds,-
+,weight of NUM_1 - NUM_2 kg,NUM_1,NUM_2,kg,-
+,NUM_1 to NUM_2 mg per kg,NUM_1,NUM_2,mg,kg
+,from NUM_1 to NUM_2 g kg,NUM_1,NUM_2,g,-
+,between NUM_1 and NUM_2 pounds,NUM_1,NUM_2,pounds,-
+,a maximum of NUM_1 kg,-,NUM_1,kg,-
+,weigh from NUM_1 to NUM_2 kg,NUM_1,NUM_2,kg,-
+,NUM_1 to NUM_2 lbs,NUM_1,NUM_2,lbs,-
+,up to NUM_1 - NUM_2 kg,NUM_1,NUM_2,kg,-
+,NUM_1 - NUM_2 mg per kg,NUM_1,NUM_2,mg,kg
+,between NUM_1 and NUM_2 kg,NUM_1,NUM_2,kg,-
+,from NUM_1 to NUM_2 pounds,NUM_1,NUM_2,pounds,-
+,up to NUM_1 kg,-,NUM_1,kg,-
+,capacity of up to NUM_1 kg,-,NUM_1,kg,-
+,ranges from NUM_1 to NUM_2 kg,NUM_1,NUM_2,kg,-
+,NUM_1 to NUM_2 pounds,NUM_1,NUM_2,pounds,-
+,NUM_1 - NUM_2 lb,NUM_1,NUM_2,lb,-
+,range from NUM_1 to NUM_2 kg,NUM_1,NUM_2,kg,-
+,more than NUM_1 pounds,NUM_1,-,pounds,-
+,a maximum weight of NUM_1 kg,-,NUM_1,kg,-
+,ranging from NUM_1 to NUM_2 kg,NUM_1,NUM_2,kg,-
+,ranged from NUM_1 to NUM_2 kg,NUM_1,NUM_2,kg,-
+,up to NUM_1 lb,-,NUM_1,lb,-
+,up to NUM_1 lbs,-,NUM_1,lbs,-
+,NUM_1 - NUM_2 pounds,NUM_1,NUM_2,pounds,-
+,NUM_1 to NUM_2 pounds,NUM_1,NUM_2,pounds,-
+,up to NUM_1 pounds,-,NUM_1,pounds,-
+,NUM_1 to NUM_2 lbs,NUM_1,NUM_2,lbs,-
+,NUM_1 g to NUM_2 kg,NUM_1,NUM_2,kg,-
+,NUM_1 - NUM_2 lb,NUM_1,NUM_2,lb,-
+,weighs NUM_1 - NUM_2 kg,NUM_1,NUM_2,kg,-
+,ranging from NUM_1 to NUM_2 kg,NUM_1,NUM_2,kg,-
+,around NUM_1 - NUM_2 kg,NUM_1,NUM_2,kg,-
+,less than NUM_1 kg,-,NUM_1,kg,-
+,of more than NUM_1 kg,NUM_1,-,kg,-
+,weighing NUM_1 to NUM_2 kg,NUM_1,NUM_2,kg,-
+,no more than NUM_1 kg,-,NUM_1,kg,-
+,maximum weight of NUM_1 kg,-,NUM_1,kg,-
+,weigh NUM_1 - NUM_2 kg,NUM_1,NUM_2,kg,-
+,weigh more than NUM_1 kg,NUM_1,-,kg,-
+,NUM_1 - NUM_2 lbs,NUM_1,NUM_2,lbs,-
+,in excess of NUM_1 kg,NUM_1,-,kg,-
+,weighing NUM_1 - NUM_2 kg,NUM_1,NUM_2,kg,-
+,weighing more than NUM_1 kg,NUM_1,-,kg,-
+,up to NUM_1 lb,-,NUM_1,lb,-
+,up to NUM_1 lbs,-,NUM_1,lbs,-
+,NUM_1 - NUM_2 pounds,NUM_1,NUM_2,pounds,-
+,is NUM_1 - NUM_2 kg,NUM_1,NUM_2,kg,-
+,from NUM_1 - NUM_2 kg,NUM_1,NUM_2,kg,-
+,between NUM_1 - NUM_2 kg,NUM_1,NUM_2,kg,-
+,about NUM_1 - NUM_2 kg,NUM_1,NUM_2,kg,-
+,NUM_1 to NUM_2 pounds,NUM_1,NUM_2,pounds,-
+,of up to NUM_1 kg,-,NUM_1,kg,-
+,of NUM_1 - NUM_2 kg,NUM_1,NUM_2,kg,-
+,between NUM_1 and NUM_2 kg,NUM_1,NUM_2,kg,-
+,from NUM_1 to NUM_2 kg,NUM_1,NUM_2,kg,-
+,weighing NUM_1 - NUM_2 kg,NUM_1,NUM_2,kg,-
+,NUM_1 - NUM_2 lbs,NUM_1,NUM_2,lbs,-
+,weighing more than NUM_1 kg,NUM_1,-,kg,-
+,ranging from NUM_1 to NUM_2,NUM_1,NUM_2,-,-
+,weigh between NUM_1 and NUM_2,NUM_1,NUM_2,-,-
+,about NUM_1 to NUM_2 kg,NUM_1,NUM_2,kg,-
+,not exceed NUM_1 kg,-,NUM_1,kg,-
+,weighing less than NUM_1 kg,-,NUM_1,kg,-
+,NUM_1 - NUM_2 pounds,NUM_1,NUM_2,pounds,-
+,is NUM_1 - NUM_2 kg,NUM_1,NUM_2,kg,-
+,from NUM_1 - NUM_2 kg,NUM_1,NUM_2,kg,-
+,greater than NUM_1 kg,NUM_1,-,kg,-
+,about NUM_1 - NUM_2 kg,NUM_1,NUM_2,kg,-
+,ranged from NUM_1 to NUM_2,NUM_1,NUM_2,,-
+,NUM_1 to NUM_2 pounds,NUM_1,NUM_2,pounds,-
+,up to NUM_1 pounds,-,NUM_1,pounds,-
+,weighing up to NUM_1 kg,-,NUM_1,kg,-
+,weigh up to NUM_1 kg,-,NUM_1,kg,-
+,at least NUM_1 kg,NUM_1,-,kg,-
+,of up to NUM_1 kg,-,NUM_1,kg,-
+,more than NUM_1 kg,NUM_1,-,kg,-
+,NUM_1 to NUM_2 kg,NUM_1,NUM_2,kg,-
+,up to NUM_1 kg,-,NUM_1,kg,-
+,NUM_1 - NUM_2 kg,NUM_1,NUM_2,kg,-
+,NUM_1 to NUM_2 mg,NUM_1,NUM_2,mg,-
+,greater than NUM_1 kg,NUM_1,-,kg,-
+,about NUM_1 to NUM_2,NUM_1,NUM_2,-,-
+,between NUM_1 - NUM_2,NUM_1,NUM_2,-,-
+,exceed NUM_1 kg,NUM_1,-,kg,-
+,up to NUM_1 pounds,-,NUM_1,pounds,-
+,NUM_1 - NUM_2 lbs,NUM_1,NUM_2,lbs,-
+,at least NUM_1 kg,NUM_1,-,kg,-
+,between NUM_1 and NUM_2,NUM_1,NUM_2,-,-
+,from NUM_1 to NUM_2,NUM_1,NUM_2,-,-
+,up to NUM_1 kg,-,NUM_1,kg,-
+,NUM_1 - NUM_2 kg,NUM_1,NUM_2,kg,-
+,at least NUM_1,NUM_1,-,-,-
+,under NUM_1 kg,-,NUM_1,kg,-
+,less than NUM_1,-,NUM_1,-,-
+,more than NUM_1,NUM_1,-,-,-
+,below NUM_1,-,NUM_1,-,-
+,lbs NUM_1,NUM_1,NUM_1,lbs,-
+,kg NUM_1,NUM_1,NUM_1,kg,-
+,NUM_1 liters,NUM_1,NUM_1,liters,-
+,NUM_1 gallon,NUM_1,NUM_1,gallon,-
+,NUM_1 lbs,NUM_1,NUM_1,lbs,-
+,NUM_1 gallons,NUM_1,NUM_1,gallons,-
+,NUM_1 pounds,NUM_1,NUM_1,pounds,-
+,NUM_1 mg,NUM_1,NUM_1,mg,-
+,NUM_1 lb,NUM_1,NUM_1,lb,-
+,NUM_1 kg,NUM_1,NUM_1,kg,-
