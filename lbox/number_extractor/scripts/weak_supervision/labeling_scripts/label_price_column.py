@@ -13,8 +13,9 @@ def separate_numbers(sent):
   # Separate numbers and its following words, e.g., 6.99you
   for m in re.findall("(\D*)(\d?[0-9\,\.]*\d)(\D*)", sent):
     m = [x for x in m if x]
+    print("Matched: {}".format(''.join(m)))
     sent = sent.replace(''.join(m), ' ' + ' '.join(m) + ' ')
-    sent = ' '.join(sent.split())
+  sent = ' '.join(sent.split())
   return sent
 
 def abstract_number(sent_string):
