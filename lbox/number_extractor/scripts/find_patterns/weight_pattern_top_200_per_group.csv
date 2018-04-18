@@ -1,0 +1,1201 @@
+index,pattern,Lb,Ub,Unit,Rate
+0,NUM_1 kg
+1,( NUM_1
+2,to NUM_1
+3,- NUM_1
+4,of NUM_1
+5,", NUM_1"
+6,NUM_1 -
+7,NUM_1 NUM_2
+8,about NUM_1
+9,NUM_1 lbs
+10,NUM_1 to
+11,"NUM_1 ,"
+12,and NUM_1
+13,NUM_1 gallons
+14,a NUM_1
+15,x NUM_1
+16,NUM_1 pounds
+17,is NUM_1
+18,from NUM_1
+19,than NUM_1
+20,NUM_1 cm
+21,in NUM_1
+22,at NUM_1
+23,NUM_1 lb
+24,NUM_1
+25,$ NUM_1
+26,NUM_1 x
+27,NUM_1 mg
+28,  NUM_1
+29,the NUM_1
+30,or NUM_1
+31,NUM_1 and
+32,NUM_1 mm
+33,over NUM_1
+34,NUM_1 m
+35,with NUM_1
+36,was NUM_1
+37,for NUM_1
+38,NUM_1 )
+39,"NUM_1 """
+40,by NUM_1
+41,/ NUM_1
+42,NUM_1 %
+43,= NUM_1
+44,approximately NUM_1
+45,weighs NUM_1
+46,NUM_1 per
+47,only NUM_1
+48,between NUM_1
+49,NUM_1 g
+50,NUM_1 (
+51,around NUM_1
+52,weighing NUM_1
+53,  NUM_1
+54,NUM_1 years
+55,per NUM_1
+56,NUM_1 gallon
+57,weight NUM_1
+58,NUM_1 of
+59,NUM_1 liters
+60,[ NUM_1
+61,weighed NUM_1
+62,) NUM_1
+63,as NUM_1
+64,weigh NUM_1
+65,NUM_1 in
+66,NUM_1 months
+67,NUM_1 or
+68,NUM_1 miles
+69,under NUM_1
+70,± NUM_1
+71,NUM_1 feet
+72,just NUM_1
+73,Rs NUM_1
+74,NUM_1 ±
+75,> NUM_1
+76,; NUM_1
+77,NUM_1 a
+78,NUM_1 /
+79,NUM_1 days
+80,NUM_1 percent
+81,Weight NUM_1
+82,+ NUM_1
+83,NUM_1 ft
+84,lost NUM_1
+85,NUM_1 tons
+86,< NUM_1
+87,least NUM_1
+88,NUM_1 oz
+89,NUM_1 +
+90,NUM_1 hours
+91,In NUM_1
+92,on NUM_1
+93,* NUM_1
+94,NUM_1 litres
+95,every NUM_1
+96,are NUM_1
+97,be NUM_1
+98,NUM_1 inches
+99,' NUM_1
+100,The NUM_1
+101,were NUM_1
+102,NUM_1 minutes
+103,produce NUM_1
+104,NUM_1 L
+105,NUM_1 pound
+106,nearly NUM_1
+107,. NUM_1
+108,   NUM_1
+109,NUM_1 for
+110,NUM_1 weeks
+111,de NUM_1
+112,NUM_1 cmWt
+113,that NUM_1
+114,NUM_1 '
+115,NUM_1 Kg
+116,NUM_1 cubic
+117,gallons NUM_1
+118,almost NUM_1
+119,NUM_1 Duo
+120,'s NUM_1
+121,NUM_1 year
+122,exceed NUM_1
+123,NUM_1 cmWeight
+124,NUM_1 km
+125,NUM_1 ml
+126,A NUM_1
+127,NUM_1 weight
+128,NUM_1 times
+129,m NUM_1
+130,NUM_1 *
+131,average NUM_1
+132,NUM_1 square
+133,	 NUM_1
+134,NUM_1 people
+135,NUM_1 ounces
+136,NUM_1 ;
+137,NUM_1 Weight
+138,NUM_1 °
+139,NUM_1 Mass
+140,NUM_1 kilograms
+141,NUM_1 inch
+142,roughly NUM_1
+143,lose NUM_1
+144,# NUM_1
+145,NUM_1 grams
+146,NUM_1 is
+147,am NUM_1
+148,× NUM_1
+149,lb NUM_1
+150,an NUM_1
+151,NUM_1 meters
+152,ft NUM_1
+153,NUM_1 ]
+154,£ NUM_1
+155,At NUM_1
+156,NUM_1 degrees
+157,""" NUM_1"
+158,NUM_1 psi
+159,NUM_1 at
+160,NUM_1 rpm
+161,NUM_1 =
+162,some NUM_1
+163,BMI NUM_1
+164,mass NUM_1
+165,– NUM_1
+166,capacity NUM_1
+167,carry NUM_1
+168,make NUM_1
+169,lbs NUM_1
+170,kg NUM_1
+171,have NUM_1
+172,gained NUM_1
+173,X NUM_1
+174,NUM_1 cents
+175,NUM_1 acres
+176,containing NUM_1
+177,NUM_1 was
+178,another NUM_1
+179,da NUM_1
+180,into NUM_1
+181,exceeding NUM_1
+182,NUM_1 µg
+183,above NUM_1
+184,NUM_1 l
+185,NUM_1 kgUSA
+186,~ NUM_1
+187,& NUM_1
+188,use NUM_1
+189,approx NUM_1
+190,has NUM_1
+191,up NUM_1
+192,reach NUM_1
+193,n NUM_1
+194,NUM_1 hour
+195,below NUM_1
+196,first NUM_1
+197,NUM_1 metres
+198,mm NUM_1
+199,bis NUM_1
+200,NUM_1 kg
+201,( NUM_1 kg
+202,NUM_1 - NUM_2
+203,to NUM_1 kg
+204,- NUM_1 kg
+205,of NUM_1 kg
+206,NUM_1 to NUM_2
+207,up to NUM_1
+208,", NUM_1 kg"
+209,about NUM_1 kg
+210,NUM_1 x NUM_2
+211,NUM_1 pounds (
+212,pounds ( NUM_1
+213,"NUM_1 , NUM_2"
+214,lbs ( NUM_1
+215,a NUM_1 kg
+216,and NUM_1 kg
+217,NUM_1 lbs (
+218,than NUM_1 kg
+219,lb ( NUM_1
+220,is NUM_1 kg
+221,NUM_1 lb (
+222,NUM_1 NUM_2 kg
+223,NUM_1 and NUM_2
+224,from NUM_1 to
+225,more than NUM_1
+226,gallons ( NUM_1
+227,NUM_1 gallons of
+228,at NUM_1 kg
+229,less than NUM_1
+230,( NUM_1 -
+231,weight of NUM_1
+232,NUM_1 mg kg
+233,NUM_1 NUM_2 gallons
+234,  NUM_1 kg
+235,weighs NUM_1 kg
+236,is about NUM_1
+237,was NUM_1 kg
+238,over NUM_1 kg
+239,the NUM_1 kg
+240,x NUM_1 x
+241,", NUM_1 ,"
+242,from NUM_1 kg
+243,/ NUM_1 kg
+244,with NUM_1 kg
+245,NUM_1 per kg
+246,weighing NUM_1 kg
+247,- NUM_1 -
+248,only NUM_1 kg
+249,NUM_1 ( NUM_2
+250,around NUM_1 kg
+251,( NUM_1 )
+252,= NUM_1 kg
+253,between NUM_1 and
+254,approximately NUM_1 kg
+255,NUM_1 gallons per
+256,weight NUM_1 kg
+257,in NUM_1 kg
+258,or NUM_1 kg
+259,NUM_1 NUM_2 NUM_3
+260,NUM_1 ± NUM_2
+261,", NUM_1 -"
+262,to NUM_1 gallons
+263,$ NUM_1 per
+264,", and NUM_1"
+265,( NUM_1 to
+266,NUM_1 NUM_2 pounds
+267,weighed NUM_1 kg
+268,NUM_1 mg per
+269,[ NUM_1 kg
+270,x NUM_1 mm
+271,mass of NUM_1
+272,"NUM_1 cm ,"
+273,gallons in NUM_1
+274,  NUM_1 kg
+275,NUM_1 liters )
+276,of about NUM_1
+277,to NUM_1 lbs
+278,at least NUM_1
+279,to NUM_1 pounds
+280,under NUM_1 kg
+281,of NUM_1 -
+282,NUM_1 pounds of
+283,capacity of NUM_1
+284,and NUM_1 gallons
+285,per NUM_1 kg
+286,""" , NUM_1"
+287,"NUM_1 "" ,"
+288,to NUM_1 NUM_2
+289,x NUM_1 cm
+290,x NUM_1 kg
+291,( NUM_1 NUM_2
+292,± NUM_1 kg
+293,for NUM_1 kg
+294,> NUM_1 kg
+295,lost NUM_1 kg
+296,NUM_1 or NUM_2
+297,", or NUM_1"
+298,weight is NUM_1
+299,", NUM_1 """
+300,- NUM_1 lbs
+301,NUM_1 kg )
+302,lbs / NUM_1
+303,weighs about NUM_1
+304,"in NUM_1 ,"
+305,with a NUM_1
+306,weigh NUM_1 kg
+307,< NUM_1 kg
+308,lbs [ NUM_1
+309,NUM_1 lbs /
+310,in the NUM_1
+311,rate of NUM_1
+312,NUM_1 kg /
+313,of NUM_1 to
+314,and weighs NUM_1
+315,gallons or NUM_1
+316,( NUM_1 liters
+317,NUM_1 g kg
+318,( NUM_1 cm
+319,of NUM_1 NUM_2
+320,cm x NUM_1
+321,NUM_1 of the
+322,( NUM_1 mg
+323,NUM_1 cm )
+324,as NUM_1 kg
+325,and NUM_1 NUM_2
+326,NUM_1 cm (
+327,just NUM_1 kg
+328,( NUM_1 lbs
+329,NUM_1 cm x
+330,Weight NUM_1 kg
+331,NUM_1 Kg
+332,"NUM_1 , and"
+333,for a NUM_1
+334,by NUM_1 kg
+335,NUM_1 % of
+336,  gallons NUM_1
+337,NUM_1 cm and
+338,about NUM_1 pounds
+339,""" ( NUM_1"
+340,litres ( NUM_1
+341,NUM_1 gallon of
+342,total of NUM_1
+343,"' NUM_1 """
+344,weigh about NUM_1
+345,average of NUM_1
+346,) NUM_1 kg
+347,NUM_1 kg »
+348,NUM_1 gallons in
+349,of NUM_1 mg
+350,", a NUM_1"
+351,( NUM_1 m
+352,NUM_1 lb /
+353,Nm ( NUM_1
+354,NUM_1 tons of
+355,NUM_1 a kg
+356,to NUM_1 lb
+357,( about NUM_1
+358,"NUM_1 mm ,"
+359,") , NUM_1"
+360,"NUM_1 m ,"
+361,cm ( NUM_1
+362,"mm , NUM_1"
+363,in a NUM_1
+364,about NUM_1 -
+365,least NUM_1 kg
+366,NUM_1 L )
+367,kg ( NUM_1
+368,( NUM_1 L
+369,in at NUM_1
+370,to NUM_1 mg
+371,- NUM_1 NUM_2
+372,of the NUM_1
+373,to produce NUM_1
+374,"In NUM_1 ,"
+375,gallons of NUM_1
+376,", weighing NUM_1"
+377,"gallons , NUM_1"
+378,at $ NUM_1
+379,$ NUM_1 NUM_2
+380,+ NUM_1 kg
+381,of $ NUM_1
+382,NUM_1 kg (
+383,NUM_1 m )
+384,much as NUM_1
+385,"NUM_1 , the"
+386,ranged from NUM_1
+387,"- NUM_1 ,"
+388,NUM_1   kg
+389,pound ( NUM_1
+390,weighs only NUM_1
+391,about NUM_1 NUM_2
+392,a NUM_1 -
+393,de NUM_1 kg
+394,", about NUM_1"
+395,fiber is NUM_1
+396,NUM_1 * NUM_2
+397,of NUM_1 gallons
+398,", NUM_1 cm"
+399,Rs NUM_1 per
+400,( NUM_1 kg
+401,to NUM_1 kg
+402,- NUM_1 kg
+403,of NUM_1 kg
+404,NUM_1 - NUM_2 kg
+405,", NUM_1 kg"
+406,about NUM_1 kg
+407,up to NUM_1 kg
+408,NUM_1 to NUM_2 kg
+409,NUM_1 pounds ( NUM_2
+410,a NUM_1 kg
+411,and NUM_1 kg
+412,than NUM_1 kg
+413,NUM_1 lbs ( NUM_2
+414,is NUM_1 kg
+415,pounds ( NUM_1 kg
+416,lbs ( NUM_1 kg
+417,NUM_1 lb ( NUM_2
+418,lb ( NUM_1 kg
+419,NUM_1 NUM_2 kg
+420,from NUM_1 to NUM_2
+421,  gallons ( NUM_1
+422,at NUM_1 kg
+423,NUM_1 mg kg
+424,( NUM_1 - NUM_2
+425,weighs NUM_1 kg
+426,NUM_1 and NUM_2 kg
+427,was NUM_1 kg
+428,over NUM_1 kg
+429,x NUM_1 x NUM_2
+430,the NUM_1 kg
+431,  NUM_1 kg
+432,from NUM_1 kg
+433,weight of NUM_1 kg
+434,more than NUM_1 kg
+435,NUM_1 x NUM_2 x
+436,with NUM_1 kg
+437,/ NUM_1 kg
+438,weighing NUM_1 kg
+439,NUM_1 per kg
+440,is about NUM_1 kg
+441,less than NUM_1 kg
+442,only NUM_1 kg
+443,around NUM_1 kg
+444,between NUM_1 and NUM_2
+445,approximately NUM_1 kg
+446,= NUM_1 kg
+447,- NUM_1 - NUM_2
+448,"NUM_1 , NUM_2 ,"
+449,weight NUM_1 kg
+450,in NUM_1 kg
+451,or NUM_1 kg
+452,weight is about NUM_1
+453,NUM_1 - NUM_2 -
+454,", NUM_1 , NUM_2"
+455,( NUM_1 to NUM_2
+456,weighed NUM_1 kg
+457,[ NUM_1 kg
+458,", NUM_1 - NUM_2"
+459,"NUM_1 , NUM_2 kg"
+460,  NUM_1 kg
+461,NUM_1 mg per kg
+462,under NUM_1 kg
+463,mass of NUM_1 kg
+464,of NUM_1 - NUM_2
+465,per NUM_1 kg
+466,± NUM_1 kg
+467,x NUM_1 kg
+468,> NUM_1 kg
+469,for NUM_1 kg
+470,""" , NUM_1 kg"
+471,NUM_1 x NUM_2 mm
+472,"NUM_1 "" , NUM_2"
+473,of up to NUM_1
+474,lost NUM_1 kg
+475,NUM_1 ± NUM_2 kg
+476,NUM_1 ( NUM_2 kg
+477,weigh NUM_1 kg
+478,to NUM_1 pounds (
+479,< NUM_1 kg
+480,lbs [ NUM_1 kg
+481,", NUM_1 "" ,"
+482,NUM_1 g kg
+483,of NUM_1 to NUM_2
+484,  gallons or NUM_1
+485,  gallons in NUM_1
+486,( NUM_1 liters )
+487,gallons ( NUM_1 liters
+488,as NUM_1 kg
+489,just NUM_1 kg
+490,a mass of NUM_1
+491,of about NUM_1 kg
+492,lbs / NUM_1 kg
+493,NUM_1 cm x NUM_2
+494,Weight NUM_1 kg
+495,NUM_1 x NUM_2 kg
+496,by NUM_1 kg
+497,up to NUM_1 lbs
+498,capacity of NUM_1 kg
+499,NUM_1 lbs / NUM_2
+500,NUM_1 NUM_2 gallons of
+501,a weight of NUM_1
+502,weigh up to NUM_1
+503,) NUM_1 kg
+504,and NUM_1 gallons of
+505,( NUM_1 kg )
+506,Nm ( NUM_1 kg
+507,( NUM_1 cm )
+508,least NUM_1 kg
+509,NUM_1 a kg
+510,weighs about NUM_1 kg
+511,weight is NUM_1 kg
+512,and weighs NUM_1 kg
+513,weighing up to NUM_1
+514,at least NUM_1 kg
+515,NUM_1 cm ( NUM_2
+516,an average of NUM_1
+517,with a NUM_1 kg
+518,NUM_1 liters ) of
+519,", NUM_1 kg »"
+520,"mm , NUM_1 kg"
+521,$ NUM_1 per kg
+522,about NUM_1 - NUM_2
+523,+ NUM_1 kg
+524,NUM_1 gallons of water
+525,  gallons of NUM_1
+526,( NUM_1 L )
+527,as much as NUM_1
+528,"  gallons , NUM_1"
+529,about NUM_1 pounds (
+530,fiber is NUM_1 kg
+531,de NUM_1 kg
+532,NUM_1   kg
+533,rate of NUM_1 kg
+534,gallons ( NUM_1 L
+535,NUM_1 - NUM_2 lbs
+536,NUM_1 NUM_2 NUM_3 NUM_4
+537,NUM_1 to NUM_2 pounds
+538,NUM_1 x NUM_2 cm
+539,( NUM_1 m )
+540,( NUM_1 mg kg
+541,to NUM_1 lb (
+542,to NUM_1 NUM_2 gallons
+543,up to NUM_1 pounds
+544,( NUM_1 Kg
+545,cm x NUM_1 cm
+546,"NUM_1 , and NUM_2"
+547,pound ( NUM_1 kg
+548,  gallons to NUM_1
+549,in at NUM_1 kg
+550,"NUM_1 "" ( NUM_2"
+551,be NUM_1 kg
+552,from NUM_1 - NUM_2
+553,pounds ( NUM_1 -
+554,is NUM_1 - NUM_2
+555,", weighing NUM_1 kg"
+556,"NUM_1 - NUM_2 ,"
+557,"cm , NUM_1 kg"
+558,to NUM_1 lbs (
+559,NUM_1 pound ( NUM_2
+560,", NUM_1 , and"
+561,( NUM_1 x NUM_2
+562,Rs NUM_1 per kg
+563,a total of NUM_1
+564,in the NUM_1 kg
+565,NUM_1 - NUM_2 NUM_3
+566,", and NUM_1 kg"
+567,NUM_1 gallons per day
+568,average of NUM_1 kg
+569,   NUM_1 kg
+570,exceed NUM_1 kg
+571,", NUM_1 and NUM_2"
+572,between NUM_1 - NUM_2
+573,; NUM_1 kg
+574,NUM_1 or NUM_2 kg
+575,about NUM_1 to NUM_2
+576,NUM_1 kg ( NUM_2
+577,"NUM_1 cm , NUM_2"
+578,weigh about NUM_1 kg
+579,on NUM_1 kg
+580,between NUM_1 kg
+581,of water and NUM_1
+582,Rs NUM_1 a kg
+583,for a NUM_1 kg
+584,that NUM_1 kg
+585,ranged from NUM_1 to
+586,weighs only NUM_1 kg
+587,NUM_1 gallons in NUM_2
+588,NUM_1 lbs . )
+589,- NUM_1 lbs (
+590,mass NUM_1 kg
+591,greater than NUM_1 kg
+592,  gallons per NUM_1
+593,- NUM_1 pounds (
+594,( up to NUM_1
+595,  gallons and NUM_1
+596,lb / NUM_1 kg
+597,NUM_1 ( NUM_2 )
+598,NUM_1 to NUM_2 mg
+599,"NUM_1 , NUM_2 and"
+600,NUM_1 - NUM_2 kg
+601,up to NUM_1 kg
+602,NUM_1 to NUM_2 kg
+603,pounds ( NUM_1 kg
+604,NUM_1 pounds ( NUM_2 kg
+605,lbs ( NUM_1 kg
+606,lb ( NUM_1 kg
+607,NUM_1 lb ( NUM_2 kg
+608,NUM_1 lbs ( NUM_2 kg
+609,NUM_1 and NUM_2 kg
+610,weight of NUM_1 kg
+611,more than NUM_1 kg
+612,NUM_1 x NUM_2 x NUM_3
+613,( NUM_1 - NUM_2 kg
+614,is about NUM_1 kg
+615,less than NUM_1 kg
+616,from NUM_1 to NUM_2 kg
+617,weight is about NUM_1 kg
+618,'s weight is about NUM_1
+619,between NUM_1 and NUM_2 kg
+620,NUM_1 - NUM_2 - NUM_3
+621,NUM_1 mg per kg
+622,"NUM_1 , NUM_2 kg"
+623,mass of NUM_1 kg
+624,( NUM_1 to NUM_2 kg
+625,NUM_1 ± NUM_2 kg
+626,"NUM_1 "" , NUM_2 kg"
+627,NUM_1 ( NUM_2 kg
+628,"NUM_1 , NUM_2 , NUM_3"
+629,to NUM_1 pounds ( NUM_2
+630,lbs [ NUM_1 kg
+631,", NUM_1 "" , NUM_2"
+632,x NUM_1 x NUM_2 mm
+633,gallons ( NUM_1 liters )
+634,lbs / NUM_1 kg
+635,of NUM_1 - NUM_2 kg
+636,of about NUM_1 kg
+637,  gallons ( NUM_1 liters
+638,of up to NUM_1 kg
+639,NUM_1 x NUM_2 kg
+640,capacity of NUM_1 kg
+641,a mass of NUM_1 kg
+642,""" , NUM_1 kg"
+643,Nm ( NUM_1 kg
+644,weighs about NUM_1 kg
+645,and weighs NUM_1 kg
+646,weight is NUM_1 kg
+647,at least NUM_1 kg
+648,", NUM_1 , NUM_2 ,"
+649,of NUM_1 to NUM_2 kg
+650,NUM_1 lbs / NUM_2 kg
+651,with a NUM_1 kg
+652,$ NUM_1 per kg
+653,fiber is NUM_1 kg
+654,about NUM_1 pounds ( NUM_2
+655,rate of NUM_1 kg
+656,gallons ( NUM_1 L )
+657,a weight of NUM_1 kg
+658,  gallons ( NUM_1 L
+659,( NUM_1 mg kg
+660,weigh up to NUM_1 kg
+661,pound ( NUM_1 kg
+662,to NUM_1 lb ( NUM_2
+663,in at NUM_1 kg
+664,pounds ( NUM_1 - NUM_2
+665,"cm , NUM_1 kg"
+666,", weighing NUM_1 kg"
+667,NUM_1 pounds ( NUM_2 -
+668,weighing up to NUM_1 kg
+669,Rs NUM_1 per kg
+670,in the NUM_1 kg
+671,to NUM_1 lbs ( NUM_2
+672,", NUM_1 , and NUM_2"
+673,NUM_1 cm x NUM_2 cm
+674,( NUM_1 liters ) of
+675,up to NUM_1 pounds (
+676,"NUM_1 , NUM_2 , and"
+677,average of NUM_1 kg
+678,weigh about NUM_1 kg
+679,NUM_1 or NUM_2 kg
+680,NUM_1 to NUM_2 pounds (
+681,an average of NUM_1 kg
+682,", and NUM_1 kg"
+683,NUM_1 pound ( NUM_2 kg
+684,x NUM_1 x NUM_2 cm
+685,ranged from NUM_1 to NUM_2
+686,weighs only NUM_1 kg
+687,about NUM_1 - NUM_2 kg
+688,gallons of water and NUM_1
+689,Rs NUM_1 a kg
+690,for a NUM_1 kg
+691,- NUM_1 lbs ( NUM_2
+692,"NUM_1 cm , NUM_2 kg"
+693,greater than NUM_1 kg
+694,- NUM_1 pounds ( NUM_2
+695,( NUM_1 lbs . )
+696,"NUM_1 , NUM_2 and NUM_3"
+697,""" , NUM_1 kg »"
+698,lbs ( NUM_1 - NUM_2
+699,( about NUM_1 kg
+700,lb / NUM_1 kg
+701,between NUM_1 - NUM_2 kg
+702,", NUM_1 - NUM_2 kg"
+703,for computer memory under NUM_1
+704,NUM_1 lbs ( NUM_2 -
+705,from NUM_1 - NUM_2 kg
+706,weight was NUM_1 kg
+707,memory under NUM_1 kg
+708,computer memory under NUM_1 kg
+709,", weight NUM_1 kg"
+710,is NUM_1 - NUM_2 kg
+711,lbs ( NUM_1 Kg
+712,weighing about NUM_1 kg
+713,"mm , NUM_1 kg"
+714,NUM_1 lbs ( NUM_2 Kg
+715,( NUM_1 NUM_2 kg
+716,"NUM_1 , and NUM_2 kg"
+717,x NUM_1 cm x NUM_2
+718,", NUM_1 and NUM_2 kg"
+719,NUM_1 - NUM_2 pounds (
+720,has a mass of NUM_1
+721,NUM_1 lbs . ) of
+722,cm x NUM_1 cm x
+723,gallons ( NUM_1 litres )
+724,weighing less than NUM_1 kg
+725,  gallons ( NUM_1 NUM_2
+726,of NUM_1 pounds ( NUM_2
+727,", NUM_1 , NUM_2 kg"
+728,NUM_1 pounds ( NUM_2 to
+729,pounds ( NUM_1 to NUM_2
+730,NUM_1 lb / NUM_2 kg
+731,  gallons ( NUM_1 litres
+732,NUM_1 NUM_2 gallons in NUM_3
+733,weight ( NUM_1 kg
+734,not exceed NUM_1 kg
+735,of approximately NUM_1 kg
+736,of a NUM_1 kg
+737,can weigh up to NUM_1
+738,", a NUM_1 kg"
+739,load of NUM_1 kg
+740,NUM_1 kg / mm
+741,to NUM_1 mg per kg
+742,density of NUM_1 kg
+743,- NUM_1 - NUM_2 -
+744,much as NUM_1 kg
+745,( up to NUM_1 kg
+746,of NUM_1 NUM_2 kg
+747,total of NUM_1 kg
+748,as much as NUM_1 kg
+749,", NUM_1 kg / mm"
+750,payload of NUM_1 kg
+751,"mm , NUM_1 kg /"
+752,of NUM_1 mg kg
+753,( NUM_1 L ) of
+754,about NUM_1 to NUM_2 kg
+755,oz ( NUM_1 kg
+756,( NUM_1 kg )
+757,litres ( NUM_1 gallons)Optional cargo
+758,  gallons to NUM_1 gallons
+759,up to NUM_1 lbs (
+760,of NUM_1 lb ( NUM_2
+761,NUM_1 oz ( NUM_2 kg
+762,Weight   NUM_1 kg
+763,NUM_1 NUM_2 NUM_3 NUM_4 NUM_5
+764,to be NUM_1 kg
+765,( NUM_1 x NUM_2 x
+766,BMI of NUM_1 kg
+767,at a rate of NUM_1
+768,weigh between NUM_1 and NUM_2
+769,a total of NUM_1 kg
+770,NUM_1 mm x NUM_2 mm
+771,up to NUM_1 lb (
+772,"  gallons , or NUM_1"
+773,", about NUM_1 kg"
+774,and weigh NUM_1 kg
+775,- NUM_1 - NUM_2 kg
+776,". , NUM_1 kg"
+777,NUM_1 ^ NUM_2 kg
+778,excess of NUM_1 kg
+779,ranging from NUM_1 to NUM_2
+780,packed in NUM_1 kg
+781,", NUM_1 cm , NUM_2"
+782,than NUM_1 pounds ( NUM_2
+783,about NUM_1 lb ( NUM_2
+784,weighing more than NUM_1 kg
+785,NUM_1 m ( NUM_2 ft
+786,NUM_1 - NUM_2 lbs (
+787,at the rate of NUM_1
+788,weighing NUM_1 - NUM_2 kg
+789,( NUM_1 ± NUM_2 kg
+790,BMI > NUM_1 kg
+791,a NUM_1 lb ( NUM_2
+792,NUM_1 / NUM_2 kg
+793,in excess of NUM_1 kg
+794,"NUM_1 "" x NUM_2 """
+795,and weighed NUM_1 kg
+796,") , NUM_1 kg"
+797,a mere NUM_1 kg
+798,NUM_1 mg / kg
+799,NUM_1 per NUM_2 kg
+800,NUM_1 pounds ( NUM_2 kg
+801,NUM_1 lb ( NUM_2 kg
+802,NUM_1 lbs ( NUM_2 kg
+803,( NUM_1 - NUM_2 kg
+804,from NUM_1 to NUM_2 kg
+805,weight is about NUM_1 kg
+806,'s weight is about NUM_1 kg
+807,between NUM_1 and NUM_2 kg
+808,( NUM_1 to NUM_2 kg
+809,", NUM_1 "" , NUM_2 kg"
+810,of NUM_1 - NUM_2 kg
+811,  gallons ( NUM_1 liters )
+812,NUM_1 x NUM_2 x NUM_3 mm
+813,of up to NUM_1 kg
+814,a mass of NUM_1 kg
+815,"NUM_1 "" , NUM_2 kg"
+816,of NUM_1 to NUM_2 kg
+817,NUM_1 lbs / NUM_2 kg
+818,about NUM_1 pounds ( NUM_2 kg
+819,a weight of NUM_1 kg
+820,  gallons ( NUM_1 L )
+821,to NUM_1 pounds ( NUM_2 kg
+822,weigh up to NUM_1 kg
+823,"NUM_1 , NUM_2 , NUM_3 ,"
+824,pounds ( NUM_1 - NUM_2 kg
+825,NUM_1 pounds ( NUM_2 - NUM_3
+826,weighing up to NUM_1 kg
+827,gallons ( NUM_1 liters ) of
+828,up to NUM_1 pounds ( NUM_2
+829,"NUM_1 , NUM_2 , and NUM_3"
+830,NUM_1 pound ( NUM_2 kg
+831,an average of NUM_1 kg
+832,NUM_1 to NUM_2 pounds ( NUM_3
+833,about NUM_1 - NUM_2 kg
+834,  gallons of water and NUM_1
+835,"NUM_1 cm , NUM_2 kg"
+836,NUM_1 x NUM_2 x NUM_3 cm
+837,lbs ( NUM_1 - NUM_2 kg
+838,to NUM_1 lb ( NUM_2 kg
+839,NUM_1 lbs ( NUM_2 - NUM_3
+840,rates for computer memory under NUM_1
+841,between NUM_1 - NUM_2 kg
+842,for computer memory under NUM_1 kg
+843,computer memory under NUM_1 kg
+844,from NUM_1 - NUM_2 kg
+845,is NUM_1 - NUM_2 kg
+846,", NUM_1 - NUM_2 kg"
+847,", NUM_1 , NUM_2 , NUM_3"
+848,( NUM_1 lbs . ) of
+849,NUM_1 lbs ( NUM_2 Kg
+850,cm x NUM_1 cm x NUM_2
+851,", NUM_1 and NUM_2 kg"
+852,weighing less than NUM_1 kg
+853,"NUM_1 "" , NUM_2 kg »"
+854,"NUM_1 , and NUM_2 kg"
+855,", NUM_1 , and NUM_2 kg"
+856,", NUM_1 , NUM_2 kg"
+857,pounds ( NUM_1 to NUM_2 kg
+858,NUM_1 pounds ( NUM_2 to NUM_3
+859,NUM_1 - NUM_2 pounds ( NUM_3
+860,to NUM_1 mg per kg
+861,  gallons ( NUM_1 litres )
+862,- NUM_1 lbs ( NUM_2 -
+863,- NUM_1 pounds ( NUM_2 -
+864,as much as NUM_1 kg
+865,( up to NUM_1 kg
+866,", NUM_1 kg / mm"
+867,of NUM_1 pounds ( NUM_2 kg
+868,has a mass of NUM_1 kg
+869,NUM_1 lb / NUM_2 kg
+870,to NUM_1 lbs ( NUM_2 kg
+871,"mm , NUM_1 kg / mm"
+872,"NUM_1 , NUM_2 and NUM_3 kg"
+873,about NUM_1 to NUM_2 kg
+874,to NUM_1 pounds ( NUM_2 to
+875,gallons ( NUM_1 L ) of
+876,NUM_1 oz ( NUM_2 kg
+877,of NUM_1 lb ( NUM_2 kg
+878,NUM_1 cm x NUM_2 cm x
+879,up to NUM_1 lbs ( NUM_2
+880,( NUM_1 x NUM_2 x NUM_3
+881,a total of NUM_1 kg
+882,up to NUM_1 lb ( NUM_2
+883,- NUM_1 - NUM_2 kg
+884,about NUM_1 lb ( NUM_2 kg
+885,weighing more than NUM_1 kg
+886,", NUM_1 cm , NUM_2 kg"
+887,than NUM_1 pounds ( NUM_2 kg
+888,weighing NUM_1 - NUM_2 kg
+889,( NUM_1 ± NUM_2 kg
+890,in excess of NUM_1 kg
+891,can weigh up to NUM_1 kg
+892,NUM_1 - NUM_2 lbs ( NUM_3
+893,ranged from NUM_1 to NUM_2 kg
+894,a NUM_1 lb ( NUM_2 kg
+895,weigh more than NUM_1 kg
+896,NUM_1 to NUM_2 mg per kg
+897,weigh NUM_1 - NUM_2 kg
+898,NUM_1 cm and NUM_2 kg
+899,maximum weight of NUM_1 kg
+900,no more than NUM_1 kg
+901,weigh less than NUM_1 kg
+902,weighing NUM_1 to NUM_2 kg
+903,between NUM_1 to NUM_2 kg
+904,of NUM_1 and NUM_2 kg
+905,weigh between NUM_1 and NUM_2 kg
+906,lbs   ( NUM_1 kg
+907,weighs NUM_1 pounds ( NUM_2 kg
+908,NUM_1 porte 's weight is about
+909,NUM_1 lb ( NUM_2 - NUM_3
+910,over NUM_1 pounds ( NUM_2 kg
+911,porte 's weight is about NUM_1
+912,to NUM_1 - NUM_2 kg
+913,weight up to NUM_1 kg
+914,"NUM_1 mm , NUM_2 kg"
+915,lb ( NUM_1 - NUM_2 kg
+916,a maximum of NUM_1 kg
+917,", up to NUM_1 kg"
+918,NUM_1 lb ( NUM_2 kg )
+919,- NUM_1 - NUM_2 - NUM_3
+920,NUM_1 feet ( NUM_2 m )
+921,NUM_1 - NUM_2 - NUM_3 -
+922,of more than NUM_1 kg
+923,", NUM_1 , NUM_2 , and"
+924,weight of about NUM_1 kg
+925,NUM_1 Estimated shipping rates for computer
+926,weighs less than NUM_1 kg
+927,around NUM_1 - NUM_2 kg
+928,of NUM_1 mg per kg
+929,weighs in at NUM_1 kg
+930,a density of NUM_1 kg
+931,"NUM_1 , NUM_2 , NUM_3 kg"
+932,of less than NUM_1 kg
+933,a rate of NUM_1 kg
+934,  gallons ( NUM_1 NUM_2 liters
+935,is NUM_1 pounds ( NUM_2 kg
+936,gallons ( NUM_1 NUM_2 liters )
+937,NUM_1 to NUM_2 lb ( NUM_3
+938,loads up to NUM_1 kg
+939,NUM_1 NUM_2 NUM_3 NUM_4 NUM_5 NUM_6
+940,a BMI of NUM_1 kg
+941,ranging from NUM_1 to NUM_2 kg
+942,"NUM_1 m , NUM_2 kg"
+943,at NUM_1 - NUM_2 kg
+944,NUM_1 ounces ( NUM_2 kg
+945,"  gallons of water , NUM_1"
+946,NUM_1 lbs ( NUM_2 KG
+947,was NUM_1 ± NUM_2 kg
+948,a payload of NUM_1 kg
+949,NUM_1 tons ( NUM_2 kg
+950,at a rate of NUM_1 kg
+951,mass index of NUM_1 kg
+952,weight loss of NUM_1 kg
+953,weighs NUM_1 - NUM_2 kg
+954,a maximum weight of NUM_1 kg
+955,"' NUM_1 ""    ( NUM_2"
+956,at Rs NUM_1 per kg
+957,NUM_1 - NUM_2 lb ( NUM_3
+958,litres ( NUM_1 gallons)Aerodynamic dragco
+959,body mass index of NUM_1 kg
+960,"y.o . , NUM_1 kg"
+961,  gallons of water in NUM_1
+962,NUM_1 g to NUM_2 kg
+963,( NUM_1 ) NUM_2 - NUM_3
+964,( NUM_1 iiKi ii ki NUM_2
+965,NUM_1 centimeters ( NUM_2 kg
+966,a NUM_1 pound ( NUM_2 kg
+967,NUM_1 x NUM_2 centimeters ( NUM_3
+968,iiKi ii ki NUM_1 kg
+969,NUM_1 iiKi ii ki NUM_2 kg
+970,x NUM_1 centimeters ( NUM_2 kg
+971,"NUM_1 y.o . , NUM_2 kg"
+972,tall and weighs NUM_1 kg
+973,NUM_1 - NUM_2 NUM_3 kg
+974,"( 0,2 to NUM_1 kg"
+975,- NUM_1 lb ( NUM_2 -
+976,NUM_1 - NUM_2 - NUM_3 kg
+977,NUM_1 to NUM_2 lbs ( NUM_3
+978,and weighs about NUM_1 kg
+979,gallons ( NUM_1 litres ) of
+980,is NUM_1 mg per kg
+981,weighs up to NUM_1 kg
+982,x NUM_1 x NUM_2 centimeters (
+983,"- NUM_1 y.o . , NUM_2"
+984,NUM_1 x NUM_2 x NUM_3 centimeters
+985,with a mass of NUM_1 kg
+986,more than NUM_1 pounds ( NUM_2
+987,NUM_1 lbs or NUM_2 kg
+988,of NUM_1 lbs ( NUM_2 kg
+989,( NUM_1 liters ) of water
+990,NUM_1 and NUM_2 mg kg
+991,", NUM_1 lb ( NUM_2 kg"
+992,with a weight of NUM_1 kg
+993,( NUM_1 and NUM_2 kg
+994,lb ( NUM_1 to NUM_2 kg
+995,approximately NUM_1 pounds ( NUM_2 kg
+996,  gallons ( NUM_1 to NUM_2
+997,gallons of water to produce NUM_1
+998,x NUM_1 cm x NUM_2 cm
+999,NUM_1 m ( NUM_2 ft )
+1000,'s weight is about NUM_1 kg
+1001,", NUM_1 "" , NUM_2 kg"
+1002,about NUM_1 pounds ( NUM_2 kg
+1003,to NUM_1 pounds ( NUM_2 kg
+1004,pounds ( NUM_1 - NUM_2 kg
+1005,NUM_1 pounds ( NUM_2 - NUM_3 kg
+1006,  gallons ( NUM_1 liters ) of
+1007,up to NUM_1 pounds ( NUM_2 kg
+1008,shipping rates for computer memory under NUM_1
+1009,to NUM_1 lb ( NUM_2 kg
+1010,NUM_1 lbs ( NUM_2 - NUM_3 kg
+1011,lbs ( NUM_1 - NUM_2 kg
+1012,for computer memory under NUM_1 kg
+1013,rates for computer memory under NUM_1 kg
+1014,pounds ( NUM_1 to NUM_2 kg
+1015,NUM_1 pounds ( NUM_2 to NUM_3 kg
+1016,", NUM_1 , and NUM_2 kg"
+1017,"NUM_1 , NUM_2 , and NUM_3 kg"
+1018,- NUM_1 pounds ( NUM_2 - NUM_3
+1019,- NUM_1 lbs ( NUM_2 - NUM_3
+1020,has a mass of NUM_1 kg
+1021,"NUM_1 , NUM_2 , NUM_3 , NUM_4"
+1022,of NUM_1 pounds ( NUM_2 kg
+1023,"mm , NUM_1 kg / mm"
+1024,to NUM_1 lbs ( NUM_2 kg
+1025,"NUM_1 , NUM_2 and NUM_3 kg"
+1026,", NUM_1 "" , NUM_2 kg »"
+1027,to NUM_1 pounds ( NUM_2 to NUM_3
+1028,NUM_1 to NUM_2 pounds ( NUM_3 to
+1029,NUM_1 - NUM_2 pounds ( NUM_3 -
+1030,  gallons ( NUM_1 L ) of
+1031,of NUM_1 lb ( NUM_2 kg
+1032,NUM_1 cm x NUM_2 cm x NUM_3
+1033,up to NUM_1 lbs ( NUM_2 kg
+1034,up to NUM_1 lb ( NUM_2 kg
+1035,about NUM_1 lb ( NUM_2 kg
+1036,than NUM_1 pounds ( NUM_2 kg
+1037,", NUM_1 cm , NUM_2 kg"
+1038,can weigh up to NUM_1 kg
+1039,ranged from NUM_1 to NUM_2 kg
+1040,a NUM_1 lb ( NUM_2 kg
+1041,NUM_1 to NUM_2 mg per kg
+1042,weigh between NUM_1 and NUM_2 kg
+1043,NUM_1 porte 's weight is about NUM_2
+1044,weighs NUM_1 pounds ( NUM_2 kg
+1045,over NUM_1 pounds ( NUM_2 kg
+1046,porte 's weight is about NUM_1 kg
+1047,NUM_1 lb ( NUM_2 - NUM_3 kg
+1048,NUM_1 - NUM_2 lbs ( NUM_3 -
+1049,lb ( NUM_1 - NUM_2 kg
+1050,", NUM_1 , NUM_2 , and NUM_3"
+1051,NUM_1 Estimated shipping rates for computer memory
+1052,"NUM_1 , NUM_2 , NUM_3 kg"
+1053,is NUM_1 pounds ( NUM_2 kg
+1054,  gallons ( NUM_1 NUM_2 liters )
+1055,", NUM_1 , NUM_2 , NUM_3 ,"
+1056,ranging from NUM_1 to NUM_2 kg
+1057,"NUM_1 , NUM_2 , NUM_3 , and"
+1058,at a rate of NUM_1 kg
+1059,a maximum weight of NUM_1 kg
+1060,body mass index of NUM_1 kg
+1061,( NUM_1 iiKi ii ki NUM_2 kg
+1062,NUM_1 x NUM_2 centimeters ( NUM_3 kg
+1063,NUM_1 iiKi ii ki NUM_2 kg
+1064,x NUM_1 centimeters ( NUM_2 kg
+1065,"NUM_1 y.o . , NUM_2 kg"
+1066,a NUM_1 pound ( NUM_2 kg
+1067,  gallons ( NUM_1 litres ) of
+1068,x NUM_1 x NUM_2 centimeters ( NUM_3
+1069,- NUM_1 lb ( NUM_2 - NUM_3
+1070,"- NUM_1 y.o . , NUM_2 kg"
+1071,NUM_1 x NUM_2 x NUM_3 centimeters (
+1072,with a mass of NUM_1 kg
+1073,of NUM_1 lbs ( NUM_2 kg
+1074,more than NUM_1 pounds ( NUM_2 kg
+1075,NUM_1 - NUM_2 - NUM_3 kg
+1076,with a weight of NUM_1 kg
+1077,lb ( NUM_1 to NUM_2 kg
+1078,gallons ( NUM_1 liters ) of water
+1079,approximately NUM_1 pounds ( NUM_2 kg
+1080,range from NUM_1 to NUM_2 kg
+1081,NUM_1 - NUM_2 lb ( NUM_3 -
+1082,  gallons of water to produce NUM_1
+1083,at the rate of NUM_1 kg
+1084,NUM_1 lb ( NUM_2 to NUM_3 kg
+1085,weighed NUM_1 pounds ( NUM_2 kg
+1086,weighs NUM_1 lb ( NUM_2 kg
+1087,cm x NUM_1 cm x NUM_2 cm
+1088,"NUM_1 x NUM_2 x NUM_3 mm ,"
+1089,than NUM_1 lbs ( NUM_2 kg
+1090,NUM_1 to NUM_2 pounds ( NUM_3 -
+1091,", NUM_1 lb ( NUM_2 kg"
+1092,to NUM_1 pounds ( NUM_2 - NUM_3
+1093,"NUM_1 , NUM_2 "" , NUM_3 kg"
+1094,"NUM_1 cm     NUM_2 ' NUM_3 """
+1095,following finishes at major championships   NUM_1
+1096,is NUM_1 lb ( NUM_2 kg
+1097,ranges from NUM_1 to NUM_2 kg
+1098,capacity of up to NUM_1 kg
+1099,"NUM_1 "" , NUM_2 kg »"
+1100,and NUM_1 pounds ( NUM_2 kg
+1101,NUM_1 - NUM_2 - NUM_3 - NUM_4
+1102,about NUM_1 lbs ( NUM_2 kg
+1103,"cm     NUM_1 ' NUM_2 "" Weight"
+1104,and weigh up to NUM_1 kg
+1105,NUM_1 x NUM_2 - NUM_3 kg
+1106,from NUM_1 to NUM_2 pounds ( NUM_3
+1107,"NUM_1 , NUM_2 , NUM_3 and NUM_4"
+1108,NUM_1 feet ( NUM_2 m ) long
+1109,a body mass index of NUM_1 kg
+1110,NUM_1 mm x NUM_2 mm x NUM_3
+1111,to NUM_1 lb ( NUM_2 to NUM_3
+1112,weighs between NUM_1 and NUM_2 kg
+1113,at major championships   NUM_1 World Championship
+1114,to NUM_1 lbs ( NUM_2 to NUM_3
+1115,than NUM_1 lb ( NUM_2 kg
+1116,NUM_1 - NUM_2 mg per kg
+1117,finishes at major championships   NUM_1 World
+1118,", NUM_1 , NUM_2 and NUM_3 kg"
+1119,gallons ( NUM_1 NUM_2 liters ) of
+1120,and a weight of NUM_1 kg
+1121,NUM_1 to NUM_2 lb ( NUM_3 to
+1122,up to NUM_1 - NUM_2 kg
+1123,NUM_1 lbs ( NUM_2 to NUM_3 kg
+1124,lbs ( NUM_1 to NUM_2 kg
+1125,", NUM_1 lbs ( NUM_2 kg"
+1126,only NUM_1 pounds ( NUM_2 kg
+1127,is NUM_1 lbs ( NUM_2 kg
+1128,NUM_1 NUM_2 NUM_3 NUM_4 NUM_5 NUM_6 NUM_7
+1129,weighs about NUM_1 pounds ( NUM_2 kg
+1130,at NUM_1 pounds ( NUM_2 kg
+1131,NUM_1 to NUM_2 lbs ( NUM_3 to
+1132,weighed NUM_1 lb ( NUM_2 kg
+1133,", capacità di carico NUM_1 kg"
+1134,"  $ NUM_1 , NUM_2 kg"
+1135,weight from NUM_1 to NUM_2 kg
+1136,  NUM_1 lbs ( NUM_2 kg
+1137,lost an average of NUM_1 kg
+1138,weigh from NUM_1 to NUM_2 kg
+1139,weigh about NUM_1 pounds ( NUM_2 kg
+1140,  gallons ( NUM_1 liters ) per
+1141,feet ( NUM_1 m ) long and
+1142,mm x NUM_1 mm x NUM_2 mm
+1143,to a maximum of NUM_1 kg
+1144,as NUM_1 pounds ( NUM_2 kg
+1145,between NUM_1 and NUM_2 pounds ( NUM_3
+1146,lb NUM_1 oz ( NUM_2 kg
+1147,weighing NUM_1 pounds ( NUM_2 kg
+1148,NUM_1 x NUM_2 ^ NUM_3 kg
+1149,""" x NUM_1 "" x NUM_2 """
+1150,gallons ( NUM_1 L ) of water
+1151,had a mass of NUM_1 kg
+1152,from NUM_1 to NUM_2 g kg
+1153,weight of NUM_1 lb ( NUM_2 kg
+1154,"NUM_1 cm , weight NUM_2 kg"
+1155,NUM_1 lb NUM_2 oz ( NUM_3 kg
+1156,NUM_1 lb ( NUM_2 kg )
+1157,than or equal to NUM_1 kg
+1158,weigh NUM_1 pounds ( NUM_2 kg
+1159,NUM_1 x NUM_2 x NUM_3 mm and
+1160,at NUM_1 lb ( NUM_2 kg
+1161,is NUM_1 to NUM_2 mg per kg
+1162,NUM_1 x NUM_2 x NUM_3 mm
+1163,weight of NUM_1 - NUM_2 kg
+1164,- NUM_1 lbs ( NUM_2 kg
+1165,"NUM_1 , NUM_2 cm , NUM_3 kg"
+1166,"NUM_1 "" x NUM_2 "" x NUM_3"
+1167,  gallons in NUM_1 to NUM_2 NUM_3
+1168,NUM_1 cm tall and weighs NUM_2 kg
+1169,cm tall and weighs NUM_1 kg
+1170,weighing between NUM_1 and NUM_2 kg
+1171,less than NUM_1 pounds ( NUM_2 kg
+1172,weighs NUM_1 lbs ( NUM_2 kg
+1173,NUM_1 NUM_2 lb ( NUM_3 kg
+1174,weigh as much as NUM_1 kg
+1175,gallons of water and NUM_1 gallons of
+1176,weight of NUM_1 pounds ( NUM_2 kg
+1177,( NUM_1 m ) long and weighed
+1178,range of NUM_1 to NUM_2 kg
+1179,about NUM_1 feet ( NUM_2 m )
+1180,from NUM_1 to NUM_2 mg kg
+1181,over NUM_1 lbs ( NUM_2 kg
+1182,( p / n NUM_1 - NUM_2
+1183,", NUM_1 pounds ( NUM_2 kg"
+1184,less than NUM_1 lbs ( NUM_2 kg
+1185,NUM_1 x NUM_2 x NUM_3 mm Weight
+1186,NUM_1 ( NUM_2 - NUM_3 kg
+1187,weigh up to NUM_1 pounds ( NUM_2
+1188,  gallons of water and NUM_1 gallons
+1189,loads of up to NUM_1 kg
+1190,- NUM_1 Estimated shipping rates for computer
+1191,weighed about NUM_1 pounds ( NUM_2 kg
+1192,as NUM_1 lb ( NUM_2 kg
+1193,a total weight of NUM_1 kg
+1194,an average weight of NUM_1 kg
+1195,  gallons ( NUM_1 m³ ) of
+1196,may weigh up to NUM_1 kg
+1197,has a density of NUM_1 kg
+1198,NUM_1 lbs NUM_2 oz ( NUM_3 kg
+1199,lbs NUM_1 oz ( NUM_2 kg
